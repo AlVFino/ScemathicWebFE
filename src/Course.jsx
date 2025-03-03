@@ -38,7 +38,7 @@ function Course() {
                                     By Schemathic
                                     </span>
                                 </div>
-
+                                
                                 <p className="mt-5 text-2xl font-semibold">
                                     <a href="#" title="" className="text-black">Tutorial HTML Dasar Untuk Pemula! </a>
                                 </p>

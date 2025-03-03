@@ -8,14 +8,14 @@ import { faCode, faBookOpen, faRocket, faUpload, faGlobe } from "@fortawesome/fr
 function Keunggulan() {
   return (
     // keunggulan
-    <section id="why-choose" className="container mx-auto mt-10 px-6">
+    <section id="why-choose" className="container mx-auto mt-16 mb-10 px-6">
     <div className="text-center mb-4 lg:mb-0" data-aos="fade-up" data-aos-duration="1000">
       <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-2">Kenapa Harus Scemathic?</h1>
       <p className="text-lg text-gray-700">
         Platform pembelajaran coding gratis dengan materi yang dapat diunggah dengan cepat.
       </p>
     </div>
-    <div className="px-4 mx-auto sm:px-6 lg:px-8">
+    <div className="px-4 mx-auto mt-10 sm:px-6 lg:px-8">
       <div className="grid items-center justify-center text-center md:grid-cols-2 md:gap-x-20 gap-y-10">
         {/* List Group */}
         <div className="flex justify-center items-center w-full" data-aos="fade-right" data-aos-duration="1200">
