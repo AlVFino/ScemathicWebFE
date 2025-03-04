@@ -1,19 +1,19 @@
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 
-import Navbar from "./Navbar";
-import Hero from "./Hero";
-import Course from "./Course";
-import AllC1 from "./AllC1";
-import Event from "./Event";
-import AllE1 from "./AllE1";
-import AboutMe from "./AboutMe";
-import Keunggulan from "./Keunggulan";
-import TestimonialsSection from "./testimoni";
-import Contact from "./Footer";
-import FAQ from "./FAQ";
-import ContactSection from "./kontak";
-import Login from "./Login";
-import Regis from "./Regis";
+import Navbar from "./HalamanUtama/Navbar";
+import Hero from "./HalamanUtama/Hero";
+import Course from "./HalamanUtama/Course";
+import AllC1 from "./HalamanRouterReact/AllC1";
+import Event from "./HalamanUtama/Event";
+import AllE1 from "./HalamanRouterReact/AllE1";
+import AboutMe from "./HalamanRouterReact/AboutMe";
+import Keunggulan from "./HalamanUtama/Keunggulan";
+import TestimonialsSection from "./HalamanUtama/testimoni";
+import Contact from "./HalamanUtama/Footer";
+import FAQ from "./HalamanUtama/FAQ";
+import ContactSection from "./HalamanRouterReact/kontak";
+import Login from "./Login/Regis/Login";
+import Regis from "./Login/Regis/Regis";
 import DasboardCourse from "./MenuCourse/MenuCourse";
 import DasboardEvent from "./MenuEvent/MenuEvent";
 

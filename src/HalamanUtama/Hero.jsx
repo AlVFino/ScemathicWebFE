@@ -1,7 +1,7 @@
-import './index.css'
+import '../index.css'
 
 import { Link } from 'react-router-dom';
-import bgImage from './assets/b1.jpg';
+import bgImage from '../assets/b1.jpg';
 
 function Hero() {
   return (

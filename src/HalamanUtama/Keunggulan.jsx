@@ -1,6 +1,6 @@
 
-import './index.css';
-import './App.css';
+import '../index.css';
+import '../App.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faBookOpen, faRocket, faUpload, faGlobe } from "@fortawesome/free-solid-svg-icons";
