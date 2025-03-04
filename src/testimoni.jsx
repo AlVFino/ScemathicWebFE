@@ -10,45 +10,41 @@ const testimonialsData = [
       image: "https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/1/avatar-2.jpg",
     },
     {
-      name: "Kristin Watson",
+      name: "Kristin Wat",
       role: "UX Designer at Google",
       image: "https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/1/avatar-3.jpg",
     },
-    {
-        name: "Ronaldo",
-        role: "UI Designer at Google",
-        image: "https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/1/avatar-3.jpg",
-      }
   ];
   
   function TestimonialsSection() {
     return (
-      <section id="testimonials" className="py-10 bg-gray-100 sm:py-16 lg:py-24">
-        <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+      <section id="testimonials" className="py-10 sm:py-16 lg:py-24">
+        <div className="px-4 mx-auto max-w-7xl  sm:px-6 lg:px-8">
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-3xl font-bold leading-tight text-gray-800 sm:text-4xl lg:text-5xl">
-              Trusted by <span className="text-blue-600">30k+</span> world-class companies & design teams
+              Apa Kata Mereka Tentang <span className="text-blue-600"> Schematic</span>
             </h2>
           </div>
-          <div className="grid max-w-xl grid-cols-1 mx-auto mt-8 text-center lg:max-w-full sm:mt-12 lg:mt-20 lg:grid-cols-4 gap-x-6 xl:gap-x-12 gap-y-6">
+          <div className="grid max-w-xl grid-cols-1 mx-auto mt-8 text-center  lg:max-w-full sm:mt-12 lg:mt-20 lg:grid-cols-3 gap-x-6 xl:gap-x-12 gap-y-6">
             {testimonialsData.map((testimonial, index) => (
-              <div key={index} className="overflow-hidden bg-white rounded-md shadow">
+              <div key={index} className="overflow-hidden bg-white rounded-md shadow-lg">
+                <svg width="22" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg"
+                  className="text-gray-A400 m-2 dark:text-gray-600 fill-current">
+                  <path d="M24 7.3h-5.1L22.3.4H17l-3.4 6.9v10.3H24V7.3zM10.3 17.6V7.3H5L8.6.4H3.4L0 7.3v10.3h10.3z"
+                      fill="current"></path>
+                </svg>
                 <div className="px-8 py-12">
-                  <div className="relative w-24 h-24 mx-auto">
-                    <img className="relative object-cover w-24 h-24 mx-auto rounded-full" src={testimonial.image} alt={testimonial.name} />
-                    <div className="absolute top-0 right-0 flex items-center justify-center bg-blue-600 rounded-full w-7 h-7">
-                      <svg className="w-4 h-4 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M20.309 17.708C22.196 15.66 22.006 13.03 22 13V5a1 1 0 0 0-1-1h-6c-1.103 0-2 .897-2 2v7a1 1 0 0 0 1 1h3.078a2.89 2.89 0 0 1-.429 1.396c-.508.801-1.465 1.348-2.846 1.624l-.803.16V20h1c2.783 0 4.906-.771 6.309-2.292zm-11.007 0C11.19 15.66 10.999 13.03 10.993 13V5a1 1 0 0 0-1-1h-6c-1.103 0-2 .897-2 2v7a1 1 0 0 0 1 1h3.078a2.89 2.89 0 0 1-.429 1.396c-.508.801-1.465 1.348-2.846 1.624l-.803.16V20h1c2.783 0 4.906-.771 6.309-2.292z" />
-                      </svg>
-                    </div>
+                  <div className="w-24 h-24 mx-auto">
+                    <img className=" object-cover w-24 h-24 mx-auto rounded-full" src={testimonial.image} alt={testimonial.name} />
+                    <p className="text-base font-semibold text-black mt-2">{testimonial.name}</p>
                   </div>
-                  <blockquote className="mt-7">
+                  <blockquote className="mt-16">
                     <p className="text-lg text-black">
                       “Amet minim mollit non deserunt ullam co est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat”
                     </p>
                   </blockquote>
-                  <p className="text-base font-semibold text-black mt-9">{testimonial.name}</p>
-                  <p className="mt-1 text-base text-gray-600">{testimonial.role}</p>
+                  
+                  {/* <p className="mt-1 text-base text-gray-600">{testimonial.role}</p> */}
                 </div>
               </div>
             ))}
