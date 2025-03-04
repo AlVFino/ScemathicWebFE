@@ -3,6 +3,10 @@ import '../index.css'
 
 import { Link } from 'react-router-dom';
 
+import gambar1 from '../assets/imgCourse/1.png';
+import gambar2 from '../assets/imgCourse/4.png';
+import gambar3 from '../assets/imgCourse/3.png';
+
 function Course() {
  
 
@@ -29,7 +33,7 @@ function Course() {
                             <div className="p-5">
                                 <div className="block">
                                     <a href="#" title="" className="block aspect-w-4 aspect-h-3">
-                                        <img className="object-cover w-full h-full" src="https://cdn.rareblocks.xyz/collection/celebration/images/blog/2/blog-post-1.jpg" alt="" />
+                                        <img className="object-cover w-full h-full rounded-lg" src={gambar1} alt="" />
                                     </a>
                                 </div>
                                 <div className="flex flex-col  items-start">
@@ -56,7 +60,7 @@ function Course() {
                         <div className="p-5">
                             <div className="block">
                                 <a href="#" title="" className="block aspect-w-4 aspect-h-3">
-                                    <img className="object-cover w-full h-full" src="https://cdn.rareblocks.xyz/collection/celebration/images/blog/2/blog-post-2.jpg" alt="" />
+                                    <img className="object-cover w-full h-full rounded-lg" src={gambar3} alt="" />
                                 </a>
                             </div>
                             <div className="flex flex-col  items-start">
@@ -67,7 +71,7 @@ function Course() {
                                 </div>
 
                                 <p className="mt-5 text-2xl font-semibold">
-                                    <a href="#" title="" className="text-black">Tutorial FIGMA Dasar Untuk Pemula! </a>
+                                    <a href="#" title="" className="text-black">Tutorial Git dan Github Dasar Untuk Pemula! </a>
                                 </p>
                                 <p className="mt-4 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
 
@@ -81,7 +85,7 @@ function Course() {
                         <div className="p-5">
                             <div className="block">
                                 <a href="#" title="" className="block aspect-w-4 aspect-h-3">
-                                    <img className="object-cover w-full h-full" src="https://cdn.rareblocks.xyz/collection/celebration/images/blog/2/blog-post-3.jpg" alt="" />
+                                    <img className="object-cover w-full h-full rounded-lg" src={gambar2} alt="" />
                                 </a>
                             </div>
                             <div className="flex flex-col  items-start">
