@@ -64,7 +64,7 @@ function Course() {
                                 </a>
                             </div>
                             <div className="flex flex-col  items-start">
-                                    <span className="inline-flex px-4 py-2 mt-3 text-xs font-semibold tracking-widest uppercase rounded-full text-white bg-orange-500 mt-9"> Desain UI/UX </span>
+                                    <span className="inline-flex px-4 py-2 mt-3 text-xs font-semibold tracking-widest uppercase rounded-full text-white bg-orange-500 mt-9">Software Development </span>
                                     <span className="inline-flex items-start pb-0.5 ms-1 mt-1 text-base font-semibold text-dark-600 transition-all duration-200 border-b-2 border-transparent hover:border-blue-600 focus:border-blue-600">
                                     By Schemathic
                                     </span>
