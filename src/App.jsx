@@ -13,13 +13,13 @@ import Contact from "./Footer";
 import FAQ from "./FAQ";
 import ContactSection from "./kontak";
 import Login from "./Login";
-import Regis from "./Regis";
+import Register from "./Register";
 import DasboardCourse from "./MenuCourse/MenuCourse";
 import DasboardEvent from "./MenuEvent/MenuEvent";
 
 function AppContent() {
   const location = useLocation(); // Dapatkan path saat ini
-  const hideNavbarFooter = ["/Login", "/Regis"].includes(location.pathname);
+  const hideNavbarFooter = ["/Login", "/Register"].includes(location.pathname);
 
   return (
     <>
@@ -40,7 +40,7 @@ function AppContent() {
           }
         />
         <Route path="/login" element={<Login />} />
-        <Route path="/Regis" element={<Regis />} />
+        <Route path="/Register" element={<Register />} />
         <Route path="/AllC1" element={<AllC1 />} />
         <Route path="/AllE1" element={<AllE1 />} />
         <Route path="/About" element={<AboutMe />} />

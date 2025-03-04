@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
-const Login = () => {
-  const [form, setForm] = useState({ email: "", password: "" });
+const Register = () => {
+  const [form, setForm] = useState({ username: "", email: "", password: "" });
   const navigate = useNavigate();
 
   const handleChange = (e) => {
@@ -12,7 +12,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("http://127.0.0.1:8000/api/auth/login", {
+      const response = await fetch("http://127.0.0.1:8000/api/auth/register", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),
@@ -24,15 +24,16 @@ const Login = () => {
       console.error("Error:", error);
     }
   };
+
   return (
     <section className="py-10 bg-gray-50 sm:py-16 lg:py-24">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
-            Welcome Back!
+            Create free account
           </h2>
           <p className="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-600">
-            Login to your account
+            You can create a free Celebration account in 2 minutes
           </p>
         </div>
 
@@ -41,6 +42,80 @@ const Login = () => {
             <div className="px-4 py-6 sm:px-8 sm:py-7">
               <form action="#" method="POST">
                 <div className="space-y-5">
+                  <div>
+                    <label
+                      htmlFor=""
+                      className="text-base font-medium text-gray-900"
+                    >
+                      {" "}
+                      First & Last name{" "}
+                    </label>
+                    <div className="mt-2.5 relative text-gray-400 focus-within:text-gray-600">
+                      <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                        <svg
+                          className="w-5 h-5"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+                          />
+                        </svg>
+                      </div>
+
+                      <input
+                        type="text"
+                        name="name"
+                        onChange={handleChange}
+                        id=""
+                        placeholder="Enter your full name"
+                        className="block w-full py-4 pl-10 pr-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600"
+                      />
+                    </div>
+                  </div>
+
+                  <div>
+                    <label
+                      htmlFor=""
+                      className="text-base font-medium text-gray-900"
+                    >
+                      {" "}
+                      Username{" "}
+                    </label>
+                    <div className="mt-2.5 relative text-gray-400 focus-within:text-gray-600">
+                      <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                        <svg
+                          className="w-5 h-5"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+                          />
+                        </svg>
+                      </div>
+
+                      <input
+                        type="text"
+                        name="username"
+                        onChange={handleChange}
+                        id=""
+                        placeholder="Enter your full name"
+                        className="block w-full py-4 pl-10 pr-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600"
+                      />
+                    </div>
+                  </div>
+
                   <div>
                     <label
                       htmlFor=""
@@ -71,7 +146,7 @@ const Login = () => {
                         type="email"
                         name="email"
                         onChange={handleChange}
-                        id="Email"
+                        id=""
                         placeholder="Enter email to get started"
                         className="block w-full py-4 pl-10 pr-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600"
                       />
@@ -79,24 +154,13 @@ const Login = () => {
                   </div>
 
                   <div>
-                    <div className="flex items-center justify-between">
-                      <label
-                        htmlFor=""
-                        className="text-base font-medium text-gray-900"
-                      >
-                        {" "}
-                        Password{" "}
-                      </label>
-
-                      <a
-                        href="#"
-                        title=""
-                        className="text-sm font-medium text-orange-500 transition-all duration-200 hover:text-orange-600 focus:text-orange-600 hover:underline"
-                      >
-                        {" "}
-                        Forgot password?{" "}
-                      </a>
-                    </div>
+                    <label
+                      htmlFor=""
+                      className="text-base font-medium text-gray-900"
+                    >
+                      {" "}
+                      Password{" "}
+                    </label>
                     <div className="mt-2.5 relative text-gray-400 focus-within:text-gray-600">
                       <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
                         <svg
@@ -119,11 +183,43 @@ const Login = () => {
                         type="password"
                         name="password"
                         onChange={handleChange}
-                        id="password"
+                        id=""
                         placeholder="Enter your password"
                         className="block w-full py-4 pl-10 pr-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600"
                       />
                     </div>
+                  </div>
+
+                  <div className="flex items-center">
+                    <input
+                      type="checkbox"
+                      name="agree"
+                      id="agree"
+                      className="w-5 h-5 text-green-500 bg-white border-gray-200 rounded"
+                      checked
+                    />
+
+                    <label
+                      htmlFor="agree"
+                      className="ml-3 text-sm font-medium text-gray-500"
+                    >
+                      I agree to Postcraft’s{" "}
+                      <a
+                        href="#"
+                        title=""
+                        className="text-blue-600 hover:text-blue-700 hover:underline"
+                      >
+                        Terms of Service
+                      </a>{" "}
+                      and{" "}
+                      <a
+                        href="#"
+                        title=""
+                        className="text-blue-600 hover:text-blue-700 hover:underline"
+                      >
+                        Privacy Policy
+                      </a>
+                    </label>
                   </div>
 
                   <div>
@@ -132,19 +228,19 @@ const Login = () => {
                       onClick={handleSubmit}
                       className="inline-flex items-center justify-center w-full px-4 py-4 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md focus:outline-none hover:bg-blue-700 focus:bg-blue-700"
                     >
-                      Log in
+                      Create account
                     </button>
                   </div>
 
-                  <Link to={"/Regis"}>
+                  <Link to={"/login"}>
                     <div className="text-center">
                       <p className="text-base text-gray-600">
-                        Don’t have an account?{" "}
+                        Already have an account?{" "}
                         <a
                           title=""
                           className="font-medium text-orange-500 transition-all duration-200 hover:text-orange-600 hover:underline"
                         >
-                          Create a free account
+                          Login here
                         </a>
                       </p>
                     </div>
@@ -158,5 +254,4 @@ const Login = () => {
     </section>
   );
 };
-
-export default Login;
+export default Register;
