@@ -27,7 +27,7 @@ function Event() {
                         <div className="p-5">
                             <div className="block">
                                 <a href="#" title="" className="block aspect-w-4 aspect-h-3">
-                                    <img className="object-cover  w-full h-full" src="https://cdn.rareblocks.xyz/collection/celebration/images/blog/2/blog-post-1.jpg" alt="" />
+                                    <img className="object-cover  w-full h-full rounded-lg" src="https://cdn.rareblocks.xyz/collection/celebration/images/blog/2/blog-post-1.jpg" alt="" />
                                 </a> 
                             </div>
                             <div className="flex justify-between items-center">
@@ -47,12 +47,12 @@ function Event() {
                     </div>   
                 </Link>
 
-                <Link>
+                <Link to={"/MenuEvent"}>
                 <div className="overflow-hidden bg-white rounded shadow hover:shadow-xl">
                         <div className="p-5">
                             <div className="block">
                                 <a href="#" title="" className="block aspect-w-4 aspect-h-3">
-                                    <img className="object-cover  w-full h-full" src="https://cdn.rareblocks.xyz/collection/celebration/images/blog/2/blog-post-1.jpg" alt="" />
+                                    <img className="object-cover  w-full h-full rounded-lg" src="https://cdn.rareblocks.xyz/collection/celebration/images/blog/2/blog-post-1.jpg" alt="" />
                                 </a> 
                             </div>
                             <div className="flex justify-between items-center">
@@ -72,12 +72,12 @@ function Event() {
                     </div>                
                 </Link>
 
-                <Link>
+                <Link to={"/MenuEvent"}>
                 <div className="overflow-hidden bg-white rounded shadow hover:shadow-xl">
                         <div className="p-5">
                             <div className="block">
                                 <a href="#" title="" className="block aspect-w-4 aspect-h-3">
-                                    <img className="object-cover  w-full h-full" src="https://cdn.rareblocks.xyz/collection/celebration/images/blog/2/blog-post-1.jpg" alt="" />
+                                    <img className="object-cover  w-full h-full rounded-lg" src="https://cdn.rareblocks.xyz/collection/celebration/images/blog/2/blog-post-1.jpg" alt="" />
                                 </a> 
                             </div>
                             <div className="flex justify-between items-center">

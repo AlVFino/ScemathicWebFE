@@ -7,7 +7,7 @@ const ContactSection = () => {
     <section id="contact" className="py-16 bg-gray-100" data-aos="fade-up" data-aos-duration="1000">
       <div className="container mx-auto px-6">
         <div className="text-center mb-12" data-aos="fade-down" data-aos-duration="1200">
-          <h2 className="text-4xl font-bold text-red-800 mb-4">Contact Us</h2>
+          <h2 className="text-4xl font-bold text-blue-800 mb-4">Contact Us</h2>
           <p className="text-lg text-gray-600">Were here to help! Reach out to us for any inquiries or feedback.</p>
         </div>
         <div className="grid grid-cols-12 gap-4 mx-auto" data-aos="zoom-in" data-aos-duration="1300">
@@ -43,7 +43,7 @@ const ContactSection = () => {
           <div className="col-span-7   p-3 shadow-lg rounded-lg">
             <form>
               <div className="mb-4" data-aos="fade-right" data-aos-duration="800">
-                <label htmlFor="name" className="block text-red-800 font-bold mb-2">Your Name</label>
+                <label htmlFor="name" className="block text-blue-800 font-bold mb-2">Your Name</label>
                 <div className="flex items-center border border-gray-300 rounded-lg overflow-hidden">
                   <span className="px-3 text-gray-600">
                     <FontAwesomeIcon icon={faUser} />
@@ -52,7 +52,7 @@ const ContactSection = () => {
                 </div>
               </div>
               <div className="mb-4" data-aos="fade-right" data-aos-duration="900">
-                <label htmlFor="email" className="block text-red-800 font-bold mb-2">Your Email</label>
+                <label htmlFor="email" className="block text-blue-800 font-bold mb-2">Your Email</label>
                 <div className="flex items-center border border-gray-300 rounded-lg overflow-hidden">
                   <span className="px-3 text-gray-600">
                     <FontAwesomeIcon icon={faEnvelope} />
@@ -61,7 +61,7 @@ const ContactSection = () => {
                 </div>
               </div>
               <div className="mb-4" data-aos="fade-right" data-aos-duration="1000">
-                <label htmlFor="message" className="block text-red-800 font-bold mb-2">Your Message</label>
+                <label htmlFor="message" className="block text-blue-800 font-bold mb-2">Your Message</label>
                 <div className="flex items-start border border-gray-300 rounded-lg overflow-hidden">
                   <span className="px-3 pt-3 text-gray-600">
                     <FontAwesomeIcon icon={faComment} />
@@ -70,7 +70,7 @@ const ContactSection = () => {
                 </div>
               </div>
               <div className="mt-6" data-aos="fade-up" data-aos-duration="1100">
-                <button type="submit" className="w-full bg-red-800 text-white py-3 rounded-lg font-bold text-lg flex items-center justify-center gap-2 hover:bg-red-900">
+                <button type="submit" className="w-full bg-blue-800 text-white py-3 rounded-lg font-bold text-lg flex items-center justify-center gap-2 hover:bg-blue-900">
                   Send Message <FontAwesomeIcon icon={faPaperPlane} />
                 </button>
               </div>

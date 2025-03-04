@@ -16,7 +16,7 @@ export const ALLE1 = () => {
                 <div className="p-5">
                     <div className="block">
                         <a href="#" title="" className="block aspect-w-4 aspect-h-3">
-                            <img className="object-cover  w-full h-full" src="https://cdn.rareblocks.xyz/collection/celebration/images/blog/2/blog-post-1.jpg" alt="" />
+                            <img className="object-cover  w-full h-full rounded-lg" src="https://cdn.rareblocks.xyz/collection/celebration/images/blog/2/blog-post-1.jpg" alt="" />
                         </a> 
                     </div>
                     <div className="flex justify-between items-center">
@@ -41,7 +41,7 @@ export const ALLE1 = () => {
                 <div className="p-5">
                     <div className="block">
                         <a href="#" title="" className="block aspect-w-4 aspect-h-3">
-                            <img className="object-cover  w-full h-full" src="https://cdn.rareblocks.xyz/collection/celebration/images/blog/2/blog-post-1.jpg" alt="" />
+                            <img className="object-cover  w-full h-full rounded-lg" src="https://cdn.rareblocks.xyz/collection/celebration/images/blog/2/blog-post-1.jpg" alt="" />
                         </a> 
                     </div>
                     <div className="flex justify-between items-center">
@@ -66,7 +66,7 @@ export const ALLE1 = () => {
                 <div className="p-5">
                     <div className="block">
                         <a href="#" title="" className="block aspect-w-4 aspect-h-3">
-                            <img className="object-cover  w-full h-full" src="https://cdn.rareblocks.xyz/collection/celebration/images/blog/2/blog-post-1.jpg" alt="" />
+                            <img className="object-cover  w-full h-full rounded-lg" src="https://cdn.rareblocks.xyz/collection/celebration/images/blog/2/blog-post-1.jpg" alt="" />
                         </a> 
                     </div>
                     <div className="flex justify-between items-center">
