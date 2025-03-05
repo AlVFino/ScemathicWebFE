@@ -5,34 +5,7 @@ import '../App.css';
 
 function AboutMe() {
   return (
-    // about
-    // <section id="AboutMe" className="container pt-20">
-    //   <div className="flex flex-col  lg:flex-row items-center bg-white shadow-lg rounded-lg p-6 lg:p-10 border">
-        
-    //     {/* Teks */}
-    //     <div className="lg:w-2/3 text-start" data-aos="fade-right" data-aos-duration="1000">
-    //       <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">Apa Itu Scematic?</h1>
-    //       <p className="text-lg text-gray-700">
-    //         Scematc adalah Wbsite Yang Menyediakan Layanan Untuk Pembelajaran Siswa dan SIswi seluruh indonesia.
-    //       </p>
 
-    //       <div className="mt-6">
-    //         <a href="#menu" className="inline-flex items-center bg-yellow-500 text-white font-bold text-lg px-6 py-3 rounded-full shadow-md hover:bg-yellow-600 transition">
-    //           Belanja Sekarang Yuk! <ion-icon name="bag-handle-outline" className="ml-2 text-xl"></ion-icon>
-    //         </a>
-    //       </div>
-    //     </div>
-
-    //     {/* Gambar */}
-    //     <div className="lg:w-1/3 flex justify-center mt-6 lg:mt-0" data-aos="fade-left" data-aos-duration="1000">
-    //       <img className="rounded-lg shadow-lg w-full max-w-sm" src="/public/images/Screenshot (38).png" alt="Belajar di gamelab.id" />
-    //     </div>
-
-    //   </div>
-    // </section>
-
-    
-    // end about
     <section className="py-10 bg-gray-100 sm:py-16 lg:py-24">
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="grid items-center grid-cols-1 gap-y-8 lg:grid-cols-2 gap-x-16 xl:gap-x-24">

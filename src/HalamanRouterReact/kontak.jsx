@@ -10,9 +10,9 @@ const ContactSection = () => {
           <h2 className="text-4xl font-bold text-blue-800 mb-4">Contact Us</h2>
           <p className="text-lg text-gray-600">Were here to help! Reach out to us for any inquiries or feedback.</p>
         </div>
-        <div className="grid grid-cols-12 gap-4 mx-auto" data-aos="zoom-in" data-aos-duration="1300">
+        <div className="lg:grid md:grid grid-cols-12 gap-4 mx-auto sm:flex sm:flex-row" data-aos="zoom-in" data-aos-duration="1300">
 
-                  <div className="col-span-5 flex flex-col gap-4 p-3">
+          <div className="lg:col-span-5 md:col-span-5 flex flex-col gap-4 p-3">
                     <div className="bg-purple-500 rounded-lg flex items-center justify-center gap-4 p-5 shadow-lg">
                           <FontAwesomeIcon icon={faLocationDot} className="bg-white rounded-full w-7 h-7 p-4 "/>
                           <div className="div text-white">
@@ -30,17 +30,18 @@ const ContactSection = () => {
                       </div>
 
                       <div className="bg-purple-500 rounded-lg p-5 flex items-center gap-4 shadow-lg">
-                      <FontAwesomeIcon icon={regular} className="bg-white rounded-full  w-7 h-7 p-4 text-3xl"/>
-                      <div className="div text-white">
+                          <FontAwesomeIcon icon={regular} className="bg-white rounded-full  w-7 h-7 p-4 text-3xl"/>
+                          <div className="div text-white">
                             <p className="judul text-lg font-bold">E-MAIL ADDRES</p>
-                            <p className="deskripsi text-base font-normal">ScemathixSmKN4BJn@gmail.com</p>
+                            <p className="deskripsi text-base font-normal">Scemathic@gmail.com</p>
                           </div>
                       </div>
-                  </div>
+
+          </div>
                     
 
 
-          <div className="col-span-7   p-3 shadow-lg rounded-lg">
+          <div className="lg:col-span-7 md:col-span-7  p-3 shadow-lg rounded-lg sm:mt-10">
             <form>
               <div className="mb-4" data-aos="fade-right" data-aos-duration="800">
                 <label htmlFor="name" className="block text-blue-800 font-bold mb-2">Your Name</label>
