@@ -17,11 +17,20 @@ import Regis from "./Login/Regis/Regis";
 import DasboardCourse from "./MenuCourse/MenuCourse";
 import DasboardEvent from "./MenuEvent/MenuEvent";
 
+// bagian dasboard admin
 import DasboardAdmin from "./dasboardAdmin/dasboard_admin";
 import CourseAdmin from "./dasboardAdmin/course_admin";
 import Event_admin from "./dasboardAdmin/event_admin";
 import Profil_admin from "./dasboardAdmin/profil_admin";
 import FormEventAdmin from "./FormAdmin/FormEventAdmin";
+
+
+//bagian dasboard user
+import DashboardUser from "./dasboardUser/dasboard_user";
+import CourseUser from "./dasboardUser/course_user";
+import Event_user from "./dasboardUser/event_user";
+import Profil_user from "./dasboardUser/profil_user";
+
 
 function AppContent() {
   const location = useLocation(); // Dapatkan path saat ini
@@ -53,11 +62,18 @@ function AppContent() {
         <Route path="/Contact" element={<ContactSection />} />
         <Route path="/MenuCourse" element={<DasboardCourse />} />
         <Route path="/MenuEvent" element={<DasboardEvent />} />
+        {/* dasboard admin */}
         <Route path="/dasboard_admin" element={<DasboardAdmin />} />
         <Route path="/course_admin" element={<CourseAdmin />} />
         <Route path="/event_admin" element={<Event_admin />} />
         <Route path="/profil_admin" element={<Profil_admin />} />
         <Route path="/FormEventAdmin" element={<FormEventAdmin />} />
+
+        {/* dasboard user */}
+        <Route path="/dasboard_user" element={<DashboardUser />} />
+        <Route path="/course_user" element={<CourseUser />} />
+        <Route path="/event_user" element={<Event_user />} />
+        <Route path="/profil_user" element={<Profil_user />} />
       </Routes>
 
       {!hideNavbarFooter && <Contact />}
