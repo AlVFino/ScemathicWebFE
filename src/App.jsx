@@ -17,9 +17,15 @@ import Regis from "./Login/Regis/Regis";
 import DasboardCourse from "./MenuCourse/MenuCourse";
 import DasboardEvent from "./MenuEvent/MenuEvent";
 
+import DasboardAdmin from "./dasboardAdmin/dasboard_admin";
+import CourseAdmin from "./dasboardAdmin/course_admin";
+import Event_admin from "./dasboardAdmin/event_admin";
+import Profil_admin from "./dasboardAdmin/profil_admin";
+import FormEventAdmin from "./FormAdmin/FormEventAdmin";
+
 function AppContent() {
   const location = useLocation(); // Dapatkan path saat ini
-  const hideNavbarFooter = ["/Login", "/Regis"].includes(location.pathname);
+  const hideNavbarFooter = ["/Login", "/Regis", "/FormEventAdmin"].includes(location.pathname);
 
   return (
     <>
@@ -47,6 +53,11 @@ function AppContent() {
         <Route path="/Contact" element={<ContactSection />} />
         <Route path="/MenuCourse" element={<DasboardCourse />} />
         <Route path="/MenuEvent" element={<DasboardEvent />} />
+        <Route path="/dasboard_admin" element={<DasboardAdmin />} />
+        <Route path="/course_admin" element={<CourseAdmin />} />
+        <Route path="/event_admin" element={<Event_admin />} />
+        <Route path="/profil_admin" element={<Profil_admin />} />
+        <Route path="/FormEventAdmin" element={<FormEventAdmin />} />
       </Routes>
 
       {!hideNavbarFooter && <Contact />}

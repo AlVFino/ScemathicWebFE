@@ -88,7 +88,7 @@ export const ALLE1 = () => {
 
 
 
-</div>
+        </div>
     </div>
     </section>
 

@@ -7,7 +7,7 @@ import gambar1 from "../assets/imgCourse/1.png";
 import gambar2 from "../assets/imgCourse/4.png";
 import gambar3 from "../assets/imgCourse/3.png";
 
-export const ALLC1 = () => {
+ const ALLC1 = () => {
   const [selectedCategory, setSelectedCategory] = useState("all");
 
   const courses = [
