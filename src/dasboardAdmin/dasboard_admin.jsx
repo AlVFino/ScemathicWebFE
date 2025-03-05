@@ -32,17 +32,17 @@ const DashboardAdmin = () => {
             </p>
           </Link>
           <Link to="/course_admin">
-            <p className="text-gray-600 cursor-pointer hover:text-gray-800 flex items-center gap-2 mb-2">
+            <p className="border-t-2 border-gray-300 pt-2 text-gray-600 cursor-pointer hover:text-gray-800 flex items-center gap-2 mb-2">
               <BookOpenIcon className="w-5 h-5 text-gray-600" /> Daftar Course
             </p>
           </Link>
           <Link to="/event_admin">
-            <p className="text-gray-600 cursor-pointer hover:text-gray-800 flex items-center gap-2 mb-2">
+            <p className="border-t-2 border-gray-300 pt-2 text-gray-600 cursor-pointer hover:text-gray-800 flex items-center gap-2 mb-2">
               <CalendarIcon className="w-5 h-5 text-gray-600" /> Daftar Event
             </p>
           </Link>
           <Link to="/profil_admin">
-            <p className="text-gray-600 cursor-pointer hover:text-gray-800 flex items-center gap-2">
+            <p className="border-t-2 border-gray-300 pt-2 text-gray-600 cursor-pointer hover:text-gray-800 flex items-center gap-2">
               <UserIcon className="w-5 h-5 text-gray-600" /> Profil Saya
             </p>
           </Link>
