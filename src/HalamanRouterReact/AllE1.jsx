@@ -2,9 +2,9 @@ import { Link } from 'react-router-dom';
 
 export const ALLE1 = () => {
   return (
-    <section className="py-10 bg-white sm:py-16 lg:py-24">
+    <section className="py-10 bg-white sm:py-16  lg:py-24">
     <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-        <div className="max-w-2xl mx-auto text-center">
+        <div className="max-w-2xl mx-auto mt-10 text-center">
             <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Event Jangan Dicari Ada Event kita gas Ikut</h2>
             <p className="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis.</p>
         </div>
