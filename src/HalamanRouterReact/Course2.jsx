@@ -7,7 +7,7 @@ import gambar1 from "../assets/imgCourse/1.png";
 import gambar2 from "../assets/imgCourse/4.png";
 import gambar3 from "../assets/imgCourse/3.png";
 
- const ALLC1 = () => {
+ const Course2 = () => {
   const [selectedCategory, setSelectedCategory] = useState("all");
 
   const courses = [
@@ -130,4 +130,4 @@ import gambar3 from "../assets/imgCourse/3.png";
   );
 };
 
-export default ALLC1;
+export default Course2;

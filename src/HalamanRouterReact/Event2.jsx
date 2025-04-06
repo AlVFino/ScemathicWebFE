@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-export const ALLE1 = () => {
+export const Event2 = () => {
   return (
     <section className="py-10 bg-white sm:py-16  lg:py-24 pt-16">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
@@ -94,4 +94,4 @@ export const ALLE1 = () => {
   )
 }
 
-export default ALLE1
+export default Event2

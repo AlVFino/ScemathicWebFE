@@ -3,9 +3,9 @@ import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import Navbar from "./HalamanUtama/Navbar";
 import Hero from "./HalamanUtama/Hero";
 import Course from "./HalamanUtama/Course";
-import AllC1 from "./HalamanRouterReact/AllC1";
+import Course2 from "./HalamanRouterReact/Course2";
 import Event from "./HalamanUtama/Event";
-import AllE1 from "./HalamanRouterReact/AllE1";
+import Event2 from "./HalamanRouterReact/Event2";
 import AboutMe from "./HalamanRouterReact/AboutMe";
 import Keunggulan from "./HalamanUtama/Keunggulan";
 import TestimonialsSection from "./HalamanUtama/testimoni";
@@ -18,12 +18,12 @@ import DasboardCourse from "./MenuCourse/MenuCourse";
 import DasboardEvent from "./MenuEvent/MenuEvent";
 
 // bagian dasboard admin
-import DasboardAdmin from "./dasboardAdmin/dasboard_admin";
+import DasboardAdmin from "./dasboardAdmin/dashboard_admin";
 import CourseAdmin from "./dasboardAdmin/course_admin";
 import Event_admin from "./dasboardAdmin/event_admin";
 import Profil_admin from "./dasboardAdmin/profil_admin";
-import FormEventAdmin from "./FormAdmin/FormEventAdmin";
-
+import AddFormEventAdmin from "./AddFormAdmin/AddFormEventAdmin";  
+import AddFormCourseAdmin from "./AddFormAdmin/AddFormCourseAdmin";
 
 //bagian dasboard user
 import DashboardUser from "./dasboardUser/dasboard_user";
@@ -32,9 +32,10 @@ import Event_user from "./dasboardUser/event_user";
 import Profil_user from "./dasboardUser/profil_user";
 
 
+
 function AppContent() {
   const location = useLocation(); // Dapatkan path saat ini
-  const hideNavbarFooter = ["/Login", "/Regis", "/FormEventAdmin"].includes(location.pathname);
+  const hideNavbarFooter = ["/Login", "/Regis", "/AddFormCourseAdmin","/AddFormEventAdmin"].includes(location.pathname);
 
   return (
     <>
@@ -56,18 +57,19 @@ function AppContent() {
         />
         <Route path="/login" element={<Login />} />
         <Route path="/Regis" element={<Regis />} />
-        <Route path="/AllC1" element={<AllC1 />} />
-        <Route path="/AllE1" element={<AllE1 />} />
+        <Route path="/Course" element={<Course2 />} />
+        <Route path="/Event" element={<Event2 />} />
         <Route path="/About" element={<AboutMe />} />
         <Route path="/Contact" element={<ContactSection />} />
         <Route path="/MenuCourse" element={<DasboardCourse />} />
         <Route path="/MenuEvent" element={<DasboardEvent />} />
         {/* dasboard admin */}
-        <Route path="/dasboard_admin" element={<DasboardAdmin />} />
+        <Route path="/Dashboard_Admin" element={<DasboardAdmin />} />
         <Route path="/course_admin" element={<CourseAdmin />} />
         <Route path="/event_admin" element={<Event_admin />} />
         <Route path="/profil_admin" element={<Profil_admin />} />
-        <Route path="/FormEventAdmin" element={<FormEventAdmin />} />
+        <Route path="/AddFormEventAdmin" element={<AddFormEventAdmin/>} />
+        <Route path="/AddFormCourseAdmin" element={<AddFormCourseAdmin/>}></Route>
 
         {/* dasboard user */}
         <Route path="/dasboard_user" element={<DashboardUser />} />

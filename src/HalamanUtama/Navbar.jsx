@@ -42,8 +42,8 @@ const Navbar = () => {
           {/* Menu */}
           <div className={`sm:flex space-x-6 hidden`}>
             <Link to="/" className="text-gray-700 hover:text-gray-900">Home</Link>
-            <Link to="/AllC1" className="text-gray-700 hover:text-gray-900">Course</Link>
-            <Link to="/AllE1" className="text-gray-700 hover:text-gray-900">Event</Link>
+            <Link to="/Course" className="text-gray-700 hover:text-gray-900">Course</Link>
+            <Link to="/Event" className="text-gray-700 hover:text-gray-900">Event</Link>
             <Link to="/About" className="text-gray-700 hover:text-gray-900">About</Link>
             <Link to="/Contact" className="text-gray-700 hover:text-gray-900">Contact</Link>
           </div>
@@ -55,9 +55,9 @@ const Navbar = () => {
                 Login
               </button>
             </Link>
-            <Link to="/Dasboard">
+            <Link to="/Dashboard">
               <button className="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">
-                Dasboard
+              Dashboard
               </button>
             </Link>
             <Link to="/Regis">
@@ -73,8 +73,8 @@ const Navbar = () => {
       {menuOpen && (
         <div className="sm:hidden bg-white shadow-md py-4 px-6 flex flex-col space-y-4 ">
           <Link to="/" className="text-gray-700 hover:text-gray-900" onClick={() => setMenuOpen(false)}>Home</Link>
-          <Link to="/AllC1" className="text-gray-700 hover:text-gray-900" onClick={() => setMenuOpen(false)}>Course</Link>
-          <Link to="/AllE1" className="text-gray-700 hover:text-gray-900" onClick={() => setMenuOpen(false)}>Event</Link>
+          <Link to="/Course" className="text-gray-700 hover:text-gray-900" onClick={() => setMenuOpen(false)}>Course</Link>
+          <Link to="/Event" className="text-gray-700 hover:text-gray-900" onClick={() => setMenuOpen(false)}>Event</Link>
           <Link to="/About" className="text-gray-700 hover:text-gray-900" onClick={() => setMenuOpen(false)}>About</Link>
           <Link to="/Contact" className="text-gray-700 hover:text-gray-900" onClick={() => setMenuOpen(false)}>Contact</Link>
           <div className="flex flex-col space-y-2">
