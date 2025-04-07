@@ -42,7 +42,7 @@ const Course_admin = () => {
       {/* Course */}
       <section id="course">
             <div className="flex justify-between items-center mt-10">
-              <h1 className="font-bold text-xl ">Course Saya</h1>
+              <h1 className="font-bold text-2xl ">Course Saya</h1>
               <Link to="/AddFormCourseAdmin">
                 <span className="bg-blue-500 p-2 rounded-lg text-white cursor-pointer flex items-center gap-2">
                     <PlusIcon className="w-5 h-5 text-white" /> Tambahkan Course

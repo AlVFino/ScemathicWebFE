@@ -42,7 +42,7 @@ const Event_user = () => {
       {/* Course */}
       <section id="course">
             <div className="flex  items-center mt-1">
-              <h1 className="font-bold text-xl ">Course Saya</h1>
+              <h1 className="font-bold text-2xl ">Event Saya</h1>
             </div>
           
 

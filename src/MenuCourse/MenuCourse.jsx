@@ -9,9 +9,9 @@ function DasboardCourse() {
       <div id="MenuCourse" className="h-full pt-10 px-6 md:px-16 lg:mt-14">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-4">
           {/* Bagian Kiri (Konten Utama) */}
-          <div className="md:col-span-8 lg:col-span-9 bg-white rounded-lg shadow-xl p-3">
+          <div className="md:col-span-8 lg:col-span-9 bg-white rounded-lg shadow-xl border-t border-black/10 p-5">
             <img
-              className="object-cover w-full h-40 sm:h-56 md:h-64 lg:h-[500px] rounded-lg"
+              className="object-cover w-full h-40 sm:h-56 md:h-64 lg:h-[500px] rounded-lg "
               src="https://cdn.rareblocks.xyz/collection/celebration/images/blog/2/blog-post-2.jpg"
               alt=""
             />
@@ -26,7 +26,7 @@ function DasboardCourse() {
                 alt=""
               />
               <p className="me-2 text-sm md:text-base">By Scemathic</p>
-              <p className="text-sm md:text-base">
+              <p className="date text-sm md:text-base">
                 <FontAwesomeIcon icon={faCalendarDay} /> 20, Mei, 2023
               </p>
             </div>
@@ -45,7 +45,7 @@ function DasboardCourse() {
           </div>
 
           {/* Bagian Kanan (Harga dan Tombol Mulai Belajar) */}
-          <div className="md:col-span-4 lg:col-span-3 bg-white rounded-lg shadow-xl p-3">
+          <div className="md:col-span-4 lg:col-span-3 bg-white rounded-lg shadow-xl border-t border-black/10 p-5">
             {/* Harga & Benefit */}
             <div className="bg-indigo-500 p-3 text-white shadow-lg rounded-lg">
               <p className="text-sm font-semibold">Harga Khusus</p>

@@ -57,8 +57,8 @@ const CourseUser = () => {
       <main id="content" className="flex-1 bg-white border border-gray-300 rounded-lg shadow-md p-8 md:ml-6 mt-10 md:mt-0">
         {/* Course */}
         <section id="course">
-            <div className="flex justify-between items-center lg:mt-10 ">
-                <h1 className="font-bold text-xl ">Course Saya</h1>
+            <div className="flex justify-between items-center mt-1 ">
+                <h1 className="font-bold text-2xl ">Course Saya</h1>
             </div>
             
             <div className="col-span-9 grid max-w-md grid-cols-1 gap-6 mx-auto mt-3 lg:mt-5 lg:grid-cols-3 lg:max-w-full">

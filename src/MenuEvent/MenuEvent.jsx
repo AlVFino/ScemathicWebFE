@@ -29,7 +29,7 @@ function DasboardCourse() {
       <div className="grid grid-cols-1 md:grid-cols-12 gap-4">
         
         {/* Bagian Kiri */}
-        <div className="md:col-span-8 lg:col-span-9 bg-white rounded-lg shadow-xl p-3">
+        <div className="md:col-span-8 lg:col-span-9 bg-white rounded-lg shadow-xl border-t border-black/10 p-5">
           <img className="object-cover w-full h-40 sm:h-56 md:h-64 lg:h-[500px] rounded-lg" src={gambar1} alt="" />
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mt-3">{courseData.title}</h1>
           <span className="inline-flex px-4 py-2 mt-2 text-xs font-semibold tracking-widest uppercase rounded-full text-white bg-blue-500 shadow-lg">
@@ -51,7 +51,7 @@ function DasboardCourse() {
         </div>
 
         {/* Bagian Kanan */}
-        <div className="md:col-span-4 lg:col-span-3 bg-white rounded-lg shadow-xl p-3 h-[450px]">
+        <div className="md:col-span-4 lg:col-span-3 bg-white rounded-lg shadow-xl border-t border-black/10 p-5 h-[450px]">
           {courseData.schedule.map((item, index) => (
             <div key={index} className="bg-indigo-500 p-2 text-white shadow-lg rounded-lg mb-3">
               <p className="font-bold mb-2">
