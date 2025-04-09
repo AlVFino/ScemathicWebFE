@@ -41,7 +41,7 @@ const ContactSection = () => {
                     
 
 
-          <div className="lg:col-span-7 md:col-span-7  p-3 shadow-lg rounded-lg sm:mt-10">
+          <div className="lg:col-span-7 md:col-span-7  p-3 shadow-lg rounded-lg ">
             <form>
               <div className="mb-4" data-aos="fade-right" data-aos-duration="800">
                 <label htmlFor="name" className="block text-blue-800 font-bold mb-2">Your Name</label>

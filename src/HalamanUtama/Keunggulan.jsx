@@ -8,7 +8,7 @@ import { faCode, faBookOpen, faRocket, faUpload, faGlobe } from "@fortawesome/fr
 function Keunggulan() {
   return (
     // keunggulan
-    <section id="why-choose" className="container mx-auto mt-16 mb-10 px-6">
+    <section id="Keunggulan-section" className="container mx-auto mt-16 mb-10 px-6">
     <div className="text-center mb-4 lg:mb-0" data-aos="fade-up" data-aos-duration="1000">
       <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-2">Kenapa Harus Scemathic?</h1>
       <p className="text-lg text-gray-700">
@@ -22,9 +22,9 @@ function Keunggulan() {
           <div className="space-y-3 ">
             {[
               { icon: faCode, text: "Belajar Coding", desc: "Dapatkan materi pemrograman lengkap dengan mudah.", color: "text-blue-500" },
-              { icon: faBookOpen, text: "Akses Gratis", desc: "Semua fitur dan materi tersedia tanpa biaya tambahan.", color: "text-green-500" },
+              { icon: faBookOpen, text: "Akses Selamanya", desc: "Akses fitur dan materi selamanya dengan satu kali daftar", color: "text-green-500" },
               { icon: faRocket, text: "Pembelajaran Efektif", desc: "Metode interaktif untuk memahami konsep lebih cepat.", color: "text-red-500" },
-              { icon: faUpload, text: "Upload Materi", desc: "Instruktur dapat mengunggah materi secara instan.", color: "text-purple-500" },
+              { icon: faUpload, text: "Upload Materi", desc: "Mentor dapat mengunggah materi dengan cepat dan Efisien.", color: "text-purple-500" },
               { icon: faGlobe, text: "Belajar Fleksibel", desc: "Akses materi dari mana saja kapan saja dengan mudah.", color: "text-yellow-500" },
             ].map((item, index) => (
               <a

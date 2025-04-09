@@ -16,6 +16,7 @@ import Login from "./Login/Regis/Login";
 import Regis from "./Login/Regis/Regis";
 import DasboardCourse from "./MenuCourse/MenuCourse";
 import DasboardEvent from "./MenuEvent/MenuEvent";
+import Mitra_kerja from "./HalamanRouterReact/Mitra_kerja";
 
 // bagian dasboard admin
 import DasboardAdmin from "./dasboardAdmin/dashboard_admin";
@@ -63,6 +64,7 @@ function AppContent() {
         <Route path="/Contact" element={<ContactSection />} />
         <Route path="/MenuCourse" element={<DasboardCourse />} />
         <Route path="/MenuEvent" element={<DasboardEvent />} />
+        <Route path="/Mitra" element={<Mitra_kerja />}></Route>
         {/* dasboard admin */}
         <Route path="/Dashboard_Admin" element={<DasboardAdmin />} />
         <Route path="/course_admin" element={<CourseAdmin />} />

@@ -6,9 +6,9 @@ import '../App.css';
 function AboutMe() {
   return (
 
-    <section className="py-10 bg-gray-100 sm:py-16 lg:py-24">
+    <section className="py-10 sm:py-16 lg:py-24">
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-        <div className="mt-5 pt-10">
+        <div className="mt-5 pt-1">
 
           <div>
             <h2 className=" text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl lg:leading-tight">
@@ -22,7 +22,12 @@ function AboutMe() {
       </div>
       
       {/* image owner */}
-      <div className="Owner py-10 bg-gray-50 sm:py-16 lg:py-24">
+      <div className="Owner py-6 sm:py-16 lg:py-24">
+        <div className="judul">
+            <h2 className=" text-xl text-center font-bold leading-tight text-black mb-7 sm:text-4xl lg:text-5xl lg:leading-tight">
+                Tim Pengembang Skillorra 
+            </h2>
+        </div>
           {/* ownr 1 */}
             <div className="max-w-6xl mb-10 px-4 mx-auto sm:px-6 lg:px-8">
               <div className="grid items-center grid-cols-1 lg:items-stretch md:grid-cols-2 gap-y-8 gap-x-12 xl:gap-x-20">

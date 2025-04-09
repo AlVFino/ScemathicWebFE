@@ -28,7 +28,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center">
             <Link to="/">
-              <p className="text-gray-900 font-bold text-2xl">Schematic</p>
+              <p className="text-gray-900 font-bold text-2xl">Skillorra</p>
             </Link>
           </div>
 
@@ -46,6 +46,7 @@ const Navbar = () => {
             <Link to="/Event" className="text-gray-700 hover:text-gray-900">Event</Link>
             <Link to="/About" className="text-gray-700 hover:text-gray-900">About</Link>
             <Link to="/Contact" className="text-gray-700 hover:text-gray-900">Contact</Link>
+            <Link to="/Mitra" className="text-gray-700 hover:text-gray-900">Mitra Kerja</Link>
           </div>
 
           {/* Tombol Login & Register */}
@@ -77,6 +78,7 @@ const Navbar = () => {
           <Link to="/Event" className="text-gray-700 hover:text-gray-900" onClick={() => setMenuOpen(false)}>Event</Link>
           <Link to="/About" className="text-gray-700 hover:text-gray-900" onClick={() => setMenuOpen(false)}>About</Link>
           <Link to="/Contact" className="text-gray-700 hover:text-gray-900" onClick={() => setMenuOpen(false)}>Contact</Link>
+          <Link to="/Mitra" className="text-gray-700 hover:text-gray-900" onClick={() => setMenuOpen(false)}>Mitra</Link>
           <div className="flex flex-col space-y-2">
             <Link to="/Login">
               <button className="bg-gray-800 text-white px-4 py-2 rounded w-full hover:bg-gray-700">
