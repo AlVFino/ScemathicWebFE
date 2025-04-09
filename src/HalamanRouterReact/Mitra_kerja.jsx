@@ -22,8 +22,15 @@ const Mitra_kerja = () => {
                     </p>
 
                     <div className="mt-10 sm:flex sm:items-center sm:space-x-8">
-                        <a href="#" title="" className="inline-flex text-lg items-center justify-center px-5 py-4 text-base font-semibold text-white transition-all duration-200 bg-indigo-600 hover:bg-indigo-500 focus:bg-indigo-600" role="button"> 
-                        Daftar Sekarang – Gratis! 
+                        <a 
+                            href="https://wa.me/6285738159689?text=Hai%20admin%20Skillora,%20saya%20ingin%20mendaftar%20menjadi%20mentor." 
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            title="Daftar via WhatsApp" 
+                            className="inline-flex text-lg items-center justify-center px-5 py-4 text-base font-semibold text-white transition-all duration-200 bg-indigo-600 hover:bg-indigo-500 focus:bg-indigo-600" 
+                            role="button"
+                        >
+                            Daftar Sekarang - Gratis!
                         </a>
                     </div>
                 </div>
