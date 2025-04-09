@@ -41,8 +41,20 @@ const ContactSection = () => {
                     
 
 
-          <div className="lg:col-span-7 md:col-span-7  p-3 shadow-lg rounded-lg ">
-            <form>
+          <div className="lg:col-span-7 md:col-span-7 p-3 shadow-lg rounded-lg">
+            <form onSubmit={(e) => {
+              e.preventDefault();
+              
+              const name = document.getElementById('name').value;
+              const email = document.getElementById('email').value;
+              const message = document.getElementById('message').value;
+              
+              const whatsappMessage = `Halo admin Skillora,%0A%0ANama: ${name}%0AEmail: ${email}%0APesan: ${message}`;
+              const phoneNumber = '6285738159689'; // Ganti dengan nomor Anda
+              
+              window.open(`https://wa.me/${phoneNumber}?text=${whatsappMessage}`, '_blank');
+            }}>
+              {/* Field nama */}
               <div className="mb-4" data-aos="fade-right" data-aos-duration="800">
                 <label htmlFor="name" className="block text-blue-800 font-bold mb-2">Your Name</label>
                 <div className="flex items-center border border-gray-300 rounded-lg overflow-hidden">
@@ -52,6 +64,8 @@ const ContactSection = () => {
                   <input type="text" id="name" className="w-full p-3 outline-none" placeholder="Enter your name" required />
                 </div>
               </div>
+
+              {/* Field email */}
               <div className="mb-4" data-aos="fade-right" data-aos-duration="900">
                 <label htmlFor="email" className="block text-blue-800 font-bold mb-2">Your Email</label>
                 <div className="flex items-center border border-gray-300 rounded-lg overflow-hidden">
@@ -61,6 +75,8 @@ const ContactSection = () => {
                   <input type="email" id="email" className="w-full p-3 outline-none" placeholder="Enter your email" required />
                 </div>
               </div>
+
+              {/* Field pesan */}
               <div className="mb-4" data-aos="fade-right" data-aos-duration="1000">
                 <label htmlFor="message" className="block text-blue-800 font-bold mb-2">Your Message</label>
                 <div className="flex items-start border border-gray-300 rounded-lg overflow-hidden">
@@ -70,6 +86,8 @@ const ContactSection = () => {
                   <textarea id="message" className="w-full p-3 outline-none" rows="5" placeholder="Enter your message" required></textarea>
                 </div>
               </div>
+
+              {/* Tombol submit */}
               <div className="mt-6" data-aos="fade-up" data-aos-duration="1100">
                 <button type="submit" className="w-full bg-blue-800 text-white py-3 rounded-lg font-bold text-lg flex items-center justify-center gap-2 hover:bg-blue-900">
                   Send Message <FontAwesomeIcon icon={faPaperPlane} />
