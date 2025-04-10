@@ -74,7 +74,7 @@ function AppContent() {
         <Route path="/AddFormCourseAdmin" element={<AddFormCourseAdmin/>}></Route>
 
         {/* dasboard user */}
-        <Route path="/dasboard_user" element={<DashboardUser />} />
+        <Route path="/dashboard_user" element={<DashboardUser />} />
         <Route path="/course_user" element={<CourseUser />} />
         <Route path="/event_user" element={<Event_user />} />
         <Route path="/profil_user" element={<Profil_user />} />

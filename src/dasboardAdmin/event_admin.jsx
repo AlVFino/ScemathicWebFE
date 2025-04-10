@@ -55,12 +55,14 @@ const Event_admin = () => {
                 <table className="w-full border-collapse border border-gray-300 shadow-md">
                     <thead className="bg-gray-100">
                         <tr>
-                            <th className="border border-gray-300 px-4 py-2">Judul</th>
+                            <th className="border border-gray-300 px-4 py-2">Title</th>
                             <th className="border border-gray-300 px-4 py-2">Deskripsi</th>
-                            <th className="border border-gray-300 px-4 py-2">Lokasi</th>
-                            <th className="border border-gray-300 px-4 py-2">Tanggal</th>
+                            <th className="border border-gray-300 px-4 py-2">Location</th>
+                            <th className="border border-gray-300 px-4 py-2">Date</th>
                             <th className="border border-gray-300 px-4 py-2">Thumbnail</th>
-                            <th className="border border-gray-300 px-4 py-2">Penulis</th>
+                            <th className="border border-gray-300 px-4 py-2">author</th>
+                            <th className="border border-gray-300 px-4 py-2">Link group</th>
+                            <th className="border border-gray-300 px-4 py-2">Price</th>
                             <th className="border border-gray-300 px-4 py-2">Aksi</th>
                         </tr>
                     </thead>
@@ -74,6 +76,8 @@ const Event_admin = () => {
                                 <img src="https://via.placeholder.com/50" alt="Thumbnail" className="w-12 h-12 rounded" />
                             </td>
                             <td className="border border-gray-300 px-4 py-2">John Doe</td>
+                            <td className="border border-gray-300 px-4 py-2">https://anjay.my.id</td>
+                            <td className="border border-gray-300 px-4 py-2">RP. 0</td>
                             <td className="px-4 py-2 h-full flex justify-center items-center gap-3">
                                 <button className="text-blue-500 hover:text-blue-700 mt-3">
                                     <PencilSquareIcon className="w-5 h-5" />

@@ -58,6 +58,7 @@ const Course_admin = () => {
                             <th className="border border-gray-300 px-4 py-2">Title</th>
                             <th className="border border-gray-300 px-4 py-2">Deskription</th>
                             <th className="border border-gray-300 px-4 py-2">Thumbnail</th>
+                            <th className="border border-gray-300 px-4 py-2">Vidio Link</th>
                             <th className="border border-gray-300 px-4 py-2">Author</th>
                             <th className="border border-gray-300 px-4 py-2">Price</th>
                             <th className="border border-gray-300 px-4 py-2">Aksi</th>
@@ -70,6 +71,7 @@ const Course_admin = () => {
                             <td className="border border-gray-300 px-4 py-2">
                                 <img src="https://via.placeholder.com/50" alt="Thumbnail" className="w-12 h-12 rounded" />
                             </td>
+                            <td className="border border-gray-300 px-4 py-2">https:/youtube.com</td>
                             <td className="border border-gray-300 px-4 py-2">Alifvino</td>
                             <td className="border border-gray-300 px-4 py-2">Gratis</td>
                             <td className="px-4 py-2 h-full flex justify-center items-center gap-3">

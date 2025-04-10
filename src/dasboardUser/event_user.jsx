@@ -66,9 +66,9 @@ const Event_user = () => {
                         <a href="#" title="" className="text-black"> How to build coffee inside your home in 5 minutes. </a>
                     </p>
                     <div className="flex">
-                      <p className="w-24 mt-2 text-center bg-purple-500 p-1 text-lg font-bold text-white rounded-lg shadow-lg">
+                      <a href="/MenuEvent" className="w-24 mt-2 text-center bg-purple-500 p-1 text-lg font-bold text-white rounded-lg shadow-lg">
                         Detail
-                      </p>
+                      </a>
                       <a
                         href="https://chat.whatsapp.com/Il0My3NIT068Kwa4BQk0jH"
                         target="_blank"
