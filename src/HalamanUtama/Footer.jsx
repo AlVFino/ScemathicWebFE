@@ -16,7 +16,8 @@ function Footer() {
 
                 <p className="w-auto font-bold text-5xl h-9">Skilllora</p>
 
-                <p className="text-base leading-relaxed text-gray-600 mt-7">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                <p className="text-base leading-relaxed text-gray-600 mt-7">Teman kodingmu yang siap setiap saat dan dimana saja!
+                </p>
 
                 <ul className="flex items-center space-x-3 mt-9">
                     <li>

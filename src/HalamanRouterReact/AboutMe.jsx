@@ -11,11 +11,13 @@ function AboutMe() {
         <div className="mt-5 pt-1">
 
           <div>
-            <h2 className=" text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl lg:leading-tight">
+            <h2 className=" text-2xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl lg:leading-tight">
              Tentang Kami 
             </h2>
-            <p className="mt-6 text-lg leading-relaxed text-gray-600">
-              Schematic adalah Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem, doloribus iusto vitae in unde saepe cum impedit fugiat quasi minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, maiores.
+            <p className="mt-6 text-xl leading-relaxed text-gray-600">
+            Skillora hadir sebagai solusi bagi kamu yang ingin berkembang di dunia teknologi informasi. Di Skillora, kamu bisa menemukan berbagai materi, artikel, dan informasi terkini seputar dunia IT, mulai dari programming, desain, pengembangan web dan aplikasi, hingga tren teknologi terbaru. Semua dikemas dalam bahasa yang mudah dipahami, cocok untuk pemula maupun yang sudah berpengalaman. Menyediakan fitur-fitur interaktif yang memudahkan kamu untuk belajar secara fleksibel, kapan saja, di mana saja, dan selamanya. Mari tumbuh bersama, satu klik, satu langkah, satu skill baru setiap harinya.
+
+
             </p>
           </div>
         </div>
@@ -49,9 +51,8 @@ function AboutMe() {
                   </div>
                   <blockquote>
                     <p className="mt-4 text-2xl leading-relaxed text-black">
-                      You made it so simple. My new site is so much faster and easier
-                      to work with than my old site. I just choose the page, make the
-                      change and click save. No need to think twice before making it.
+                    Siswa asli Daerah Bojonegoro, Muhammad Rizki Alifvino, atau yang biasa dipanggil Pino, merupakan siswa yang sabar dan ramah kepada orang lain. Memiliki cita-cita menjadi fullstack web developer, yang menangani semua bagian website, baik front-end maupun back-end.
+
                     </p>
                   </blockquote>
                 </div>
@@ -64,14 +65,12 @@ function AboutMe() {
 
                 <div className="flex flex-col  justify-between md:py-5">
                   <div className="lg:mt-auto">
-                      <p className="text-xl font-semibold text-black">Jenny Wilson</p>
-                      <p className="mt-2 text-base text-gray-600">Co-founder, Appson</p>
+                      <p className="text-xl font-semibold text-black">Gayuh Ageng Baladewa</p>
+                      <p className="mt-2 text-base text-gray-600">Designer & IT Support</p>
                     </div>
                     <blockquote>
                       <p className="mt-4 text-2xl leading-relaxed text-black">
-                        You made it so simple. My new site is so much faster and easier
-                        to work with than my old site. I just choose the page, make the
-                        change and click save. No need to think twice before making it.
+                      Siswa yang berasal dari daerah Surabaya, yang kini sedang menuntut ilmu di SMKN 4 Bojonegoro. Gayuh Ageng Baladewa, biasa dipanggil Gayuh, Anak ke-3 dari 3 bersaudara, memiliki cita-cita menjadi game developer yang ulung dan dikenal oleh banyak orang.
                       </p>
                     </blockquote>
                   </div>
@@ -106,14 +105,12 @@ function AboutMe() {
 
                 <div className="flex flex-col justify-between md:py-5">
                 <div className="lg:mt-auto">
-                    <p className="text-xl font-semibold text-black">Jenny Wilson</p>
-                    <p className="mt-2 text-base text-gray-600">Co-founder, Appson</p>
+                    <p className="text-xl font-semibold text-black">Dwi Setyo Ramadhani</p>
+                    <p className="mt-2 text-base text-gray-600">Back-End Developer</p>
                   </div>
                   <blockquote>
                     <p className="mt-4 text-2xl leading-relaxed text-black">
-                      You made it so simple. My new site is so much faster and easier
-                      to work with than my old site. I just choose the page, make the
-                      change and click save. No need to think twice before making it.
+                    Berasal dari Tuban, Dwi Setyo Ramadhani, atau yang biasa dipanggil Tyo, kini sedang mencari ilmu di SMKN 4 Bojonegoro karena jurusan incarannya yaitu Jurusan RPL. Berbeda dari siswa lainnya, Tyo sudah belajar ilmu seputar pemrograman sejak dari jenjang SMP.
                     </p>
                   </blockquote>
                 </div>

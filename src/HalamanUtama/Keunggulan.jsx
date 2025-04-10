@@ -10,7 +10,7 @@ function Keunggulan() {
     // keunggulan
     <section id="Keunggulan-section" className="container mx-auto mt-16 mb-10 px-6">
     <div className="text-center mb-4 lg:mb-0" data-aos="fade-up" data-aos-duration="1000">
-      <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-2">Kenapa Harus Scemathic?</h1>
+      <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-2">Kenapa Harus Skillora?</h1>
       <p className="text-lg text-gray-700">
         Platform pembelajaran coding gratis dengan materi yang dapat diunggah dengan cepat.
       </p>

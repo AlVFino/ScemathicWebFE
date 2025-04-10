@@ -21,7 +21,7 @@ function Hero() {
           <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-41">
             <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full px-4 py-2 text-sm font-semibold text-gray-700 bg-white shadow-md ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-            Apa Itu Skillorra?&nbsp;
+            Apa Itu Skillora?&nbsp;
             <a href="#Course" className="font-semibold text-indigo-600 hover:underline">
               Lihat Semua Course →
             </a>

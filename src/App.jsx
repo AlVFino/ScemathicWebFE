@@ -36,7 +36,7 @@ import Profil_user from "./dasboardUser/profil_user";
 
 function AppContent() {
   const location = useLocation(); // Dapatkan path saat ini
-  const hideNavbarFooter = ["/Login", "/Regis", "/AddFormCourseAdmin","/AddFormEventAdmin"].includes(location.pathname);
+  const hideNavbarFooter = ["/Login", "/Regis"].includes(location.pathname);
 
   return (
     <>

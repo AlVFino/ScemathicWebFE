@@ -28,7 +28,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center">
             <Link to="/">
-              <p className="text-gray-900 font-bold text-2xl">Skillorra</p>
+              <p className="text-gray-900 font-bold text-2xl">Skillora</p>
             </Link>
           </div>
 

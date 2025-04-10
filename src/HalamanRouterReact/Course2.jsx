@@ -36,8 +36,8 @@ import gambar3 from "../assets/imgCourse/3.png";
             <p className="text-2xl font-bold mb-1">Kategori</p>
 
               <div className="flex flex-col space-y-3 items-start">
-                  <Menu as="div" className="relative inline-block text-left mb-1">
-                  <MenuButton className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-xs ring-gray-300 ring-inset hover:bg-gray-50">
+                  <Menu as="div" className=" inline-block text-left mb-1">
+                  <MenuButton className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-lg font-semibold text-gray-900 shadow-xs ring-gray-300 ring-inset hover:bg-gray-50">
                     Pemrograman Web
                     <ChevronDownIcon aria-hidden="true" className="-mr-1 size-5 text-gray-400" />
                   </MenuButton>
@@ -53,8 +53,8 @@ import gambar3 from "../assets/imgCourse/3.png";
                   </MenuItems>
                 </Menu>
 
-                <Menu as="div" className="relative inline-block text-left mb-1">
-                  <MenuButton className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-xs ring-gray-300 ring-inset hover:bg-gray-50">
+                <Menu as="div" className=" inline-block text-left mb-1">
+                  <MenuButton className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-lg font-semibold text-gray-900 shadow-xs ring-gray-300 ring-inset hover:bg-gray-50">
                     Software Dev
                     <ChevronDownIcon aria-hidden="true" className="-mr-1 size-5 text-gray-400" />
                   </MenuButton>
@@ -70,8 +70,8 @@ import gambar3 from "../assets/imgCourse/3.png";
                   </MenuItems>
                 </Menu>
 
-                <Menu as="div" className="relative inline-block text-left">
-                  <MenuButton className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-xs ring-gray-300 ring-inset hover:bg-gray-50">
+                <Menu as="div" className="inline-block text-left">
+                  <MenuButton className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-lg font-semibold text-gray-900 shadow-xs ring-gray-300 ring-inset hover:bg-gray-50">
                     Framework
                     <ChevronDownIcon aria-hidden="true" className="-mr-1 size-5 text-gray-400" />
                   </MenuButton>

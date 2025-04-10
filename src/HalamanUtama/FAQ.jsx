@@ -10,11 +10,11 @@ const FAQ = () => {
   const faqs = [
     {
       question: "Bagaimana cara membuat akun di Skillora?",
-      answer: "Untuk membuat akun di Scemathic, silakan kunjungi halaman pendaftaran dan isi formulir dengan informasi yang diperlukan. Setelah itu, verifikasi email Anda untuk mulai menggunakan platform kami.",
+      answer: "Untuk membuat akun di Skillora, silakan kunjungi halaman pendaftaran dan isi formulir dengan informasi yang diperlukan. Setelah itu, verifikasi email Anda untuk mulai menggunakan platform kami.",
     },
     {
       question: "Bagaimana cara mendaftar kursus atau event pembelajaran?",
-      answer: "Anda dapat mendaftar kursus atau event dengan masuk ke akun Scemathic Anda, pilih kursus yang diinginkan, lalu klik tombol 'Daftar'. Anda akan mendapatkan notifikasi konfirmasi setelah pendaftaran berhasil.",
+      answer: "Anda dapat mendaftar kursus atau event dengan masuk ke akun Skillora Anda, pilih kursus yang diinginkan, lalu klik tombol 'Daftar'. Anda akan mendapatkan notifikasi konfirmasi setelah pendaftaran berhasil.",
     },
     {
       question: "Apakah semua Kursus dan Event di Skillora Gratis Semua?",
@@ -22,7 +22,7 @@ const FAQ = () => {
     },
     {
       question: "Bagaimana cara menghubungi tim dukungan Skillora?",
-      answer: "Jika Anda memiliki pertanyaan atau butuh bantuan, Anda dapat menghubungi tim dukungan kami melalui email atau fitur live chat yang tersedia di website Scemathic.",
+      answer: "Jika Anda memiliki pertanyaan atau butuh bantuan, Anda dapat menghubungi tim dukungan kami melalui email atau fitur live chat yang tersedia di website Skillora.",
     },
   ];
 
