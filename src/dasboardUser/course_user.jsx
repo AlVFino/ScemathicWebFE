@@ -14,7 +14,10 @@ const CourseUser = () => {
     const [selectedCategory] = useState("all");
     
       const courses = [
-        { id: 1, img: gambar1, title: "Tutorial HTML Dasar Untuk Pemula!", desc: "Amet minim mollit non deserunt ullamco...", category: "Programming", color: "bg-blue-500" },
+        { id: 1, img: gambar1, 
+          title: "Tutorial HTML Dasar Untuk Pemula!", 
+          desc: "Amet minim mollit non deserunt ullamco...", 
+          category: "Programming", color: "bg-blue-500" },
       ];
 
       const filteredCourses = selectedCategory === "all" ? courses : courses.filter(course => course.category === selectedCategory);
@@ -84,10 +87,11 @@ const CourseUser = () => {
                       <a href="#" title="" className="text-black">{course.title}</a>
                     </p>
                     <p className="mt-4 text-base text-gray-600">{course.desc}</p>
+                      <p className="w-24 mt-2 text-center bg-purple-500 p-1 text-lg font-bold text-white rounded-lg shadow-lg">
+                        Detail
+                      </p>
 
-                    <p className="w-24 mt-2 text-center bg-purple-500 p-1 text-lg font-bold text-white rounded-lg shadow-lg">
-                      Gratiss!
-                    </p>
+
                   </div>
                 </div>
               </Link>

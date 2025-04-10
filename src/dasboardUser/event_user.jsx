@@ -48,7 +48,6 @@ const Event_user = () => {
 
             <div className="col-span-9 grid max-w-md grid-cols-1 gap-6 mx-auto mt-3 lg:mt-5 lg:grid-cols-3 lg:max-w-full">
 
-              <Link to="#">
                 <div className="overflow-hidden bg-white rounded shadow cursor-pointer hover:shadow-xl">
                 <div className="p-5">
                     <div className="block">
@@ -66,12 +65,23 @@ const Event_user = () => {
                     <p className="mt-5 text-2xl font-semibold">
                         <a href="#" title="" className="text-black"> How to build coffee inside your home in 5 minutes. </a>
                     </p>
-                    <p className='w-24 mt-5 text-center bg-purple-500 p-1 text-lg  font-bold text-white rounded-lg shadow-lg '>
-                            Gratiss!
-                    </p>
+                    <div className="flex">
+                      <p className="w-24 mt-2 text-center bg-purple-500 p-1 text-lg font-bold text-white rounded-lg shadow-lg">
+                        Detail
+                      </p>
+                      <a
+                        href="https://chat.whatsapp.com/Il0My3NIT068Kwa4BQk0jH"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="ml-4 mt-2 px-4 py-2 bg-green-500 hover:bg-green-600 text-white text-sm font-semibold rounded-lg shadow-md transition"
+                      >
+                        Gabung Grup WhatsApp
+                      </a>
+
+                    </div>
                   </div>
                 </div>
-              </Link>
+
             
             </div>
 

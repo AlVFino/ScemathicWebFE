@@ -52,15 +52,17 @@ function DasboardCourse() {
               <p className="text-3xl font-bold">Gratis!</p>
             </div>
 
-            {/* Countdown Timer */}
+            {/* Countdown Timer
             <div className="mt-3 text-center bg-red-500 text-white p-2 rounded-lg shadow">
               <p className="text-sm">Pendaftaran ditutup pada:</p>
               <p className="text-lg font-bold">1 Maret 2025, 14.00</p>
-            </div>
+            </div> */}
 
             {/* Tombol Mulai Belajar */}
             <div className="bg-yellow-500 p-2 text-white shadow-lg rounded-full cursor-pointer text-center mt-3 transition-transform transform hover:scale-105 hover:bg-yellow-600">
-              Mulai Belajar →
+              <a href="/course_user">
+                Mulai Belajar →
+              </a>
             </div>
 
             {/* Keuntungan Kursus */}

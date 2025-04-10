@@ -6,7 +6,7 @@ const AddFormCourseAdmin = () => {
 
   return (
 
-        <div id="admin" className="mt-16 px-6 py-6 flex min-h-screen bg-gray-50">
+        <div id="AddFormAdmin" className="mt-16 px-6 py-6 flex min-h-screen bg-gray-50">
         {/* Sidebar */}
         <aside id="sideBar" className="bg-white border border-gray-300 rounded-lg shadow-md lg:w-48 md:w-48 sm:w-24 h-[50vh] p-5 flex flex-col flex-shrink-0 xl:w-64">
           <nav className="space-y-4">

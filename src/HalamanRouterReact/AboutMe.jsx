@@ -110,7 +110,7 @@ function AboutMe() {
                   </div>
                   <blockquote>
                     <p className="mt-4 text-2xl leading-relaxed text-black">
-                    Berasal dari Tuban, Dwi Setyo Ramadhani, atau yang biasa dipanggil Tyo, kini sedang mencari ilmu di SMKN 4 Bojonegoro karena jurusan incarannya yaitu Jurusan RPL. Berbeda dari siswa lainnya, Tyo sudah belajar ilmu seputar pemrograman sejak dari jenjang SMP.
+                    Berasal dari Tuban, Dwi Setyo Ramadhani, atau yang biasa dipanggil Tyo, kini sedang mencari ilmu di SMKN 4 Bojonegoro karena jurusan incarannya yaitu Jurusan RPL. Berbeda dari siswa lainnya, Tyo sudah belajar ilmu seputar pemrograman sejak dari jenjangSMP.
                     </p>
                   </blockquote>
                 </div>

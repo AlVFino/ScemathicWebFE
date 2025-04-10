@@ -1,3 +1,5 @@
+// import React, { useState } from "react";
+import { useState } from "react";
 import "../index.css";
 import "../App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -6,24 +8,31 @@ import { faCalendar as kalender, faCreditCard } from "@fortawesome/free-regular-
 
 import gambar1 from "../assets/imgCourse/1.png";
 
-const courseData = {
-  title: "Tutorial Dasar React JS - Untuk Pemula",
-  category: "Technology",
-  instructor: {
-    name: "By Scemathic",
-    avatar: "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_640.png",
-    date: "20, Mei, 2023",
-  },
-  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eos expedita possimus a nihil quos...",
-  schedule: [
-    { label: "Mulai Tanggal", value: "1 Maret 2025, 15.00 - 1 Maret 2025, 16.00", icon: kalender },
-    { label: "Pendaftaran Terakhir", value: "1 Maret 2025, 14.00", icon: kalender },
-    { label: "Lokasi Meet", value: "Google Meet", icon: faLocationDot },
-    { label: "Biaya Pendaftaran", value: "Gratis!", icon: faCreditCard },
-  ],
-};
-
 function DasboardCourse() {
+  const [showNotif, setShowNotif] = useState(false);
+
+  const handleDaftarClick = () => {
+    setShowNotif(true);
+    setTimeout(() => setShowNotif(false), 4000);
+  };
+
+  const courseData = {
+    title: "Tutorial Dasar React JS - Untuk Pemula",
+    category: "Technology",
+    instructor: {
+      name: "By Scemathic",
+      avatar: "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_640.png",
+      date: "20, Mei, 2023",
+    },
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eos expedita possimus a nihil quos...",
+    schedule: [
+      { label: "Mulai Tanggal", value: "1 Maret 2025, 15.00 - 1 Maret 2025, 16.00", icon: kalender },
+      { label: "Pendaftaran Terakhir", value: "1 Maret 2025, 14.00", icon: kalender },
+      { label: "Lokasi Meet", value: "Google Meet", icon: faLocationDot },
+      { label: "Biaya Pendaftaran", value: "Gratis!", icon: faCreditCard },
+    ],
+  };
+
   return (
     <div id="MenuEvent" className="h-full pt-20 px-4 md:px-16">
       <div className="grid grid-cols-1 md:grid-cols-12 gap-4">
@@ -60,7 +69,23 @@ function DasboardCourse() {
               <p>{item.value}</p>
             </div>
           ))}
-          <div className="bg-yellow-500 p-2 text-white shadow-lg rounded-full cursor-pointer text-center mt-1">
+
+          {/* Notifikasi */}
+          {showNotif && (
+            <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-green-100 border border-green-400 text-green-800 px-6 py-4 rounded-lg shadow-xl max-w-md w-full text-center z-50">
+              <h1 className="text-lg font-semibold mb-2">🎉 Kamu Telah Mendaftarkan Dirimu!</h1>
+              <p className="text-sm">
+                Cek di Dashboard Anda dan silakan masuk ke grup yang sudah disediakan. Jangan lupa ikuti event-nya sesuai tanggalnya!
+              </p>
+            </div>
+
+          )}
+
+          {/* Tombol Daftar */}
+          <div
+            className="bg-yellow-500 p-2 text-white shadow-lg rounded-full cursor-pointer text-center mt-1 hover:bg-yellow-600 transition"
+            onClick={handleDaftarClick}
+          >
             Daftar Sekarang →
           </div>
         </div>
