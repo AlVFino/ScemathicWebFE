@@ -14,6 +14,8 @@ import gambar3 from "../assets/imgCourse/3.png";
     { id: 1, img: gambar1, title: "Tutorial HTML Dasar Untuk Pemula!", desc: "Amet minim mollit non deserunt ullamco...", category: "Programming", color: "bg-blue-500" },
     { id: 2, img: gambar3, title: "Tutorial Git dan Github Dasar!", desc: "Amet minim mollit non deserunt ullamco...", category: "Software Development", color: "bg-orange-500" },
     { id: 3, img: gambar2, title: "Tutorial Bootstrap Dasar Untuk Pemula!", desc: "Amet minim mollit non deserunt ullamco...", category: "Framework", color: "bg-green-500" },
+    { id: 3, img: gambar2, title: "Tutorial Bootstrap Dasar Untuk Pemula!", desc: "Amet minim mollit non deserunt ullamco...", category: "Framework", color: "bg-green-500" },
+    { id: 3, img: gambar2, title: "Tutorial Bootstrap Dasar Untuk Pemula!", desc: "Amet minim mollit non deserunt ullamco...", category: "Framework", color: "bg-green-500" },
   ];
 
   const filteredCourses = selectedCategory === "all" ? courses : courses.filter(course => course.category === selectedCategory);
@@ -30,7 +32,7 @@ import gambar3 from "../assets/imgCourse/3.png";
           </p>
         </div>
 
-        <div className="grid grid-cols-12 gap-6 mt-12 overflow-hidden">
+        <div className="min-h-full grid grid-cols-12 gap-6 mt-12 overflow-hidden">
           {/* Sidebar */}
           <div className="col-span-12 md:col-span-4 lg:col-span-3 bg-white rounded-lg shadow-lg p-5 lg:h-96 md:h-80 sm:h-64">
             <p className="text-2xl font-bold mb-1">Kategori</p>
@@ -91,9 +93,9 @@ import gambar3 from "../assets/imgCourse/3.png";
           </div>
 
           {/* Konten Course */}
-          <div className="col-span-12 md:col-span-8 lg:col-span-9 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mx-auto mt-3 lg:mt-5">
+          <div className=" min-h-full ps-5 pe-5 pb-5 col-span-12 md:col-span-8 lg:col-span-9 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mx-auto mt-3 lg:mt-5">
             {filteredCourses.map((course) => (
-              <Link key={course.id} to="#">
+              <Link key={course.id} to="/MenuCourse">
                 <div className="overflow-hidden bg-white rounded shadow cursor-pointer flex flex-col hover:shadow-xl">
                   <div className="p-5">
                     <div className="block">

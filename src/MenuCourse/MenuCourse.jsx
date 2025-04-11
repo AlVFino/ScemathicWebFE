@@ -6,12 +6,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function DasboardCourse() {
   return (
     <>
-      <div id="MenuCourse" className="h-full pt-10 px-6 md:px-16 lg:mt-14">
+      <div id="MenuCourse" className="h-full mt-7  pt-10 px-6 sm:mt-10 md:px-16 lg:mt-14">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-4">
           {/* Bagian Kiri (Konten Utama) */}
           <div className="md:col-span-8 lg:col-span-9 bg-white rounded-lg shadow-xl border-t border-black/10 p-5">
             <img
-              className="object-cover w-full h-40 sm:h-56 md:h-64 lg:h-[500px] rounded-lg "
+              className="object-cover w-full h-40 mt-1 sm:h-56 sm:mt-4 md:h-64 md:mt-1 lg:h-[500px] rounded-lg "
               src="https://cdn.rareblocks.xyz/collection/celebration/images/blog/2/blog-post-2.jpg"
               alt=""
             />

@@ -4,8 +4,8 @@ import {faEnvelope as regular } from "@fortawesome/free-regular-svg-icons";
 
 const ContactSection = () => {
   return (
-    <section id="contact" className="py-16 bg-gray-100" data-aos="fade-up" data-aos-duration="1000">
-      <div className="container mx-auto px-6">
+    <section id="contact" className="py-16 bg-white" data-aos="fade-up" data-aos-duration="1000">
+      <div className="container mx-auto px-6 mt-5">
         <div className="text-center mb-12" data-aos="fade-down" data-aos-duration="1200">
           <h2 className="text-4xl font-bold text-blue-800 mb-4">Contact Us</h2>
           <p className="text-lg text-gray-600">Were here to help! Reach out to us for any inquiries or feedback.</p>

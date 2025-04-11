@@ -1,5 +1,24 @@
 import { Link } from 'react-router-dom';
 
+
+// const [formData,setFormData] = useState({
+//     email: "",
+//     password: "",
+// })
+
+// const handleChange = (e) => {
+//     setFormData({
+//         ...formData,
+//         [e.target.name]: e.target.value
+//     })
+// }
+
+// const handleSubmit = (e) => {
+//     e.preventDefault();
+//     const req = client.post('/auth/login', formData)
+//     console.log(req)
+// }
+
  const Login = () => {
   return (
     <section className="py-10 bg-gray-50 sm:py-16 lg:py-24">

@@ -77,6 +77,11 @@ function DasboardCourse() {
               <p className="text-sm">
                 Cek di Dashboard Anda dan silakan masuk ke grup yang sudah disediakan. Jangan lupa ikuti event-nya sesuai tanggalnya!
               </p>
+              <p className="mt-5">Ingin kedashboard sekarang?</p>
+              <div className="flex align-center justify-center">
+                <a href="/event_user" className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg">ya</a>
+                <a href="/MenuEvent" className="bg-red-500 hover:bg-red-600 text-white ml-2 px-4 py-2 rounded-lg">tidak</a>
+              </div>
             </div>
 
           )}

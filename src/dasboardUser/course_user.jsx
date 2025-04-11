@@ -27,7 +27,7 @@ const CourseUser = () => {
       {/* Sidebar */}
       <aside id="sideBar" className="bg-white border border-gray-300 rounded-lg shadow-md lg:w-48 md:w-48 sm:w-24 h-[40vh] p-5 flex flex-col flex-shrink-0 xl:w-64">
         <nav className="space-y-4">
-        <Link to="/dasboard_user">
+        <Link to="/dashboard_user">
             <p className=" text-gray-700  flex items-center gap-2 mb-2">
                 <HomeIcon className="w-5 h-5 text-gray-700" /> Dashboard
             </p>
@@ -66,7 +66,7 @@ const CourseUser = () => {
             
             <div className="col-span-9 grid max-w-md grid-cols-1 gap-6 mx-auto mt-3 lg:mt-5 lg:grid-cols-3 lg:max-w-full">
             {filteredCourses.map((course) => (
-              <Link key={course.id} to="#">
+              <Link key={course.id} to="/Pagecourse">
                 <div className="overflow-hidden bg-white rounded shadow cursor-pointer hover:shadow-xl">
                   <div className="p-5">
                     <div className="block">
@@ -87,11 +87,6 @@ const CourseUser = () => {
                       <a href="#" title="" className="text-black">{course.title}</a>
                     </p>
                     <p className="mt-4 text-base text-gray-600">{course.desc}</p>
-                      <p className="w-24 mt-2 text-center bg-purple-500 p-1 text-lg font-bold text-white rounded-lg shadow-lg">
-                        Detail
-                      </p>
-
-
                   </div>
                 </div>
               </Link>

@@ -26,7 +26,7 @@ const DashboardUser = () => {
       {/* Sidebar */}
       <aside id="sideBar" className="bg-white border border-gray-300 rounded-lg shadow-md lg:w-48 md:w-48 sm:w-24 h-[40vh] p-5 flex flex-col flex-shrink-0 xl:w-64">
         <nav className="space-y-4 flex-grow">
-          <Link to="/dasboard_user">
+          <Link to="/dashboard_user">
             <p className="font-semibold  text-gray-700 flex items-center gap-2 mb-2">
               <HomeIcon className="w-5 h-5 text-gray-700" /> Dashboard
             </p>

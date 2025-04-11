@@ -9,7 +9,7 @@ const Event_user = () => {
     {/* Sidebar */}
     <aside id="sideBar" className="bg-white border border-gray-300 rounded-lg shadow-md lg:w-48 md:w-48 sm:w-24 h-[40vh] p-5 flex flex-col flex-shrink-0 xl:w-64">
       <nav className="space-y-4">
-        <Link to="/dasboard_user">
+        <Link to="/dashboard_user">
             <p className=" text-gray-700 flex items-center gap-2 mb-2">
                 <HomeIcon className="w-5 h-5 text-gray-700" /> Dashboard
             </p>
@@ -40,7 +40,8 @@ const Event_user = () => {
     {/* Content */}
     <main id="content" className="flex-1 bg-white border border-gray-300 rounded-lg shadow-md p-8 md:ml-6 mt-10 md:mt-0">
       {/* Course */}
-      <section id="course">
+    <Link to={"/MenuEvent"}>
+    <section id="course">
             <div className="flex  items-center mt-1">
               <h1 className="font-bold text-2xl ">Event Saya</h1>
             </div>
@@ -62,31 +63,25 @@ const Event_user = () => {
                     <span className="inline-flex items-start pb-0.5 ms-1 mt-3 text-base font-semibold text-dark-600 transition-all duration-200 border-b-2 border-transparent hover:border-blue-600 focus:border-blue-600">
                             By Schemathic
                     </span>
-                    <p className="mt-5 text-2xl font-semibold">
+                    <p className="mt-5 text-2xl font-semibold mb-4">
                         <a href="#" title="" className="text-black"> How to build coffee inside your home in 5 minutes. </a>
                     </p>
-                    <div className="flex">
-                      <a href="/MenuEvent" className="w-24 mt-2 text-center bg-purple-500 p-1 text-lg font-bold text-white rounded-lg shadow-lg">
-                        Detail
-                      </a>
+
                       <a
                         href="https://chat.whatsapp.com/Il0My3NIT068Kwa4BQk0jH"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="ml-4 mt-2 px-4 py-2 bg-green-500 hover:bg-green-600 text-white text-sm font-semibold rounded-lg shadow-md transition"
+                        className=" px-4 py-2 bg-green-500 hover:bg-green-600 text-white text-sm font-semibold rounded-lg shadow-md transition"
                       >
                         Gabung Grup WhatsApp
                       </a>
 
-                    </div>
                   </div>
-                </div>
-
-            
+                </div>          
             </div>
-
-
       </section>
+    </Link>
+
     </main>
 
 

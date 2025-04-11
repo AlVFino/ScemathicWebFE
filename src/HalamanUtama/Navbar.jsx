@@ -41,12 +41,12 @@ const Navbar = () => {
 
           {/* Menu */}
           <div className={`sm:flex space-x-6 hidden`}>
-            <Link to="/" className="text-gray-700 hover:text-gray-900">Home</Link>
-            <Link to="/Course" className="text-gray-700 hover:text-gray-900">Course</Link>
-            <Link to="/Event" className="text-gray-700 hover:text-gray-900">Event</Link>
-            <Link to="/About" className="text-gray-700 hover:text-gray-900">About</Link>
-            <Link to="/Contact" className="text-gray-700 hover:text-gray-900">Contact</Link>
-            <Link to="/Mitra" className="text-gray-700 hover:text-gray-900">Mitra Kerja</Link>
+            <a href="/" className="text-gray-700 hover:text-gray-900">Home</a>
+            <a href="/Course" className="text-gray-700 hover:text-gray-900">Course</a>
+            <a href="/Event" className="text-gray-700 hover:text-gray-900">Event</a>
+            <a href="/About" className="text-gray-700 hover:text-gray-900">About</a>
+            <a href="/Contact" className="text-gray-700 hover:text-gray-900">Contact</a>
+            <a href="/Mitra" className="text-gray-700 hover:text-gray-900">Mitra Kerja</a>
           </div>
 
           {/* Tombol Login & Register */}

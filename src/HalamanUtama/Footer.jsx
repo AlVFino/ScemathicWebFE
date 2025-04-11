@@ -7,9 +7,9 @@ import { faTwitter, faFacebook, faInstagram,faTiktok } from '@fortawesome/free-b
 
 function Footer() {
   return (
-<section id="Contact" className="py-10 bg-white  sm:pt-16 lg:pt-24">
-    <div className="px-4 mx-auto mt-1 sm:px-6 lg:px-8 max-w-7xl">
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-12 gap-y-12 gap-x-8 xl:gap-x-12">
+<section id="Contact" className="py-10 bg-gray-100 rounded-t-lg  inset-shadow-sm sm:pt-16 lg:pt-24">
+    <div className="px-4  mx-auto mt-1 sm:px-6 lg:px-8 max-w-7xl">
+        <div className="grid grid-cols-2  md:grid-cols-4 lg:grid-cols-12 gap-y-12 gap-x-8 xl:gap-x-12">
           {/* pertama */}
             <div className="col-span-2 md:col-span-4 xl:pr-8">
 

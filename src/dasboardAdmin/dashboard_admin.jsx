@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 import gambar1 from "../assets/imgCourse/1.png";
-import { HomeIcon, BookOpenIcon, UsersIcon,CalendarIcon, UserIcon, ClipboardDocumentCheckIcon,PlusIcon, ArrowLeftOnRectangleIcon  } from "@heroicons/react/20/solid";
+import { HomeIcon, BookOpenIcon, UsersIcon,CalendarIcon, UserIcon, ClipboardDocumentCheckIcon, ArrowLeftOnRectangleIcon  } from "@heroicons/react/20/solid";
 
 
 
@@ -81,9 +81,6 @@ const DashboardAdmin = () => {
         <section id="course">
             <div className="flex justify-between items-center mt-10">
                 <h1 className="font-bold text-xl ">Course Saya</h1>
-                <span className="bg-blue-500 p-2 rounded-lg text-white cursor-pointer flex items-center gap-2">
-                    <PlusIcon className="w-5 h-5 text-white" /> Tambahkan Course
-                </span>
             </div>
             
             <div className="col-span-9 grid max-w-md grid-cols-1 gap-6 mx-auto mt-3 lg:mt-5 lg:grid-cols-3 lg:max-w-full">
@@ -123,9 +120,6 @@ const DashboardAdmin = () => {
         <section id="Event">
             <div className="flex justify-between items-center mt-10">
                 <h1 className="font-bold text-xl ">Event Saya</h1>
-                <span className="bg-blue-500 p-2 rounded-lg text-white cursor-pointer flex items-center gap-2">
-                    <PlusIcon className="w-5 h-5 text-white" /> Tambahkan Event
-                </span>
             </div>
                 <div className="grid max-w-md grid-cols-1 gap-6 mx-auto mt-6 lg:mt-8 lg:grid-cols-3 lg:max-w-full">
                     <Link to={"/MenuEvent"}>

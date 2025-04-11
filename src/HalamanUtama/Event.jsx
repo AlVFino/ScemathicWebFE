@@ -1,7 +1,6 @@
 
 import '../index.css'
 
-import { Link } from 'react-router-dom';
 
 function Event() {
  
@@ -22,7 +21,7 @@ function Event() {
 
                 <div className="grid max-w-md grid-cols-1 gap-6 mx-auto mt-6 lg:mt-8 lg:grid-cols-3 lg:max-w-full">
 
-                <Link to={"/MenuEvent"}>
+                <a href="/MenuEvent">
                 <div className="overflow-hidden bg-white rounded shadow hover:shadow-xl">
                         <div className="p-5">
                             <div className="block">
@@ -45,9 +44,9 @@ function Event() {
                             </p>
                         </div>
                     </div>   
-                </Link>
+                </a>
 
-                <Link to={"/MenuEvent"}>
+                <a to="/MenuEvent">
                 <div className="overflow-hidden bg-white rounded shadow hover:shadow-xl">
                         <div className="p-5">
                             <div className="block">
@@ -70,9 +69,9 @@ function Event() {
                             </p>
                         </div>
                     </div>                
-                </Link>
+                </a>
 
-                <Link to={"/MenuEvent"}>
+                <a to="/MenuEvent">
                 <div className="overflow-hidden bg-white rounded shadow hover:shadow-xl">
                         <div className="p-5">
                             <div className="block">
@@ -95,7 +94,7 @@ function Event() {
                             </p>
                         </div>
                     </div>                
-                </Link>
+                </a>
 
 
 

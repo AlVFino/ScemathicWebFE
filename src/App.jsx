@@ -32,7 +32,8 @@ import CourseUser from "./dasboardUser/course_user";
 import Event_user from "./dasboardUser/event_user";
 import Profil_user from "./dasboardUser/profil_user";
 
-
+// Page Course
+import Pagecourse from "./PageCourse/Page-course"; 
 
 function AppContent() {
   const location = useLocation(); // Dapatkan path saat ini
@@ -78,6 +79,8 @@ function AppContent() {
         <Route path="/course_user" element={<CourseUser />} />
         <Route path="/event_user" element={<Event_user />} />
         <Route path="/profil_user" element={<Profil_user />} />
+        {/* page Course */}
+        <Route path="/Pagecourse" element={<Pagecourse />}></Route>
       </Routes>
 
       {!hideNavbarFooter && <Contact />}

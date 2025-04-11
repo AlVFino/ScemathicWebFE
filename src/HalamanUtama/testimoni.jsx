@@ -23,7 +23,7 @@ const testimonialsData = [
   
   function TestimonialsSection() {
     return (
-      <section id="testimonials" className="py-10 sm:py-16 lg:py-24">
+      <section id="testimonials" className="py-10   sm:py-16 lg:py-24">
         <div className="px-4 mx-auto max-w-7xl  sm:px-6 lg:px-8">
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-3xl font-bold leading-tight text-gray-800 sm:text-4xl lg:text-5xl">
@@ -58,7 +58,7 @@ const testimonialsData = [
           </div>
 
             {/* form isi testimoni */}
-          <div className="flex flex-1 flex-col  justify-center space-y-5 max-w-md mx-auto mt-24 p-3 ">
+          <div className="flex  flex-1 flex-col  justify-center space-y-5 max-w-md mx-auto mt-24 p-3 ">
             <div className="flex flex-col space-y-2 text-center">
                 <h2 className="text-3xl md:text-4xl font-bold">Send Us Feedback</h2>
                 <p className="text-md md:text-xl">

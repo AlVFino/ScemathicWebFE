@@ -46,18 +46,18 @@ function AboutMe() {
 
                 <div className="flex flex-col justify-between md:py-5">
                 <div className="lg:mt-auto">
-                    <p className="text-xl font-semibold text-black">Muhammad Rizki A.</p>
+                    <p className="text-xl font-semibold text-black">Muhammad Rizki Alifvino</p>
                     <p className="mt-2 text-base text-gray-600">Frond-End Develover</p>
                   </div>
                   <blockquote>
                     <p className="mt-4 text-2xl leading-relaxed text-black">
-                    Siswa asli Daerah Bojonegoro, Muhammad Rizki Alifvino, atau yang biasa dipanggil Pino, merupakan siswa yang sabar dan ramah kepada orang lain. Memiliki cita-cita menjadi fullstack web developer, yang menangani semua bagian website, baik front-end maupun back-end.
-
+                      Siswa asli Daerah Bojonegoro, Muhammad Rizki Alifvino, atau yang biasa dipanggil Pino, merupakan siswa yang sabar dan ramah kepada orang lain. Memiliki cita-cita menjadi fullstack web developer, yang menangani semua bagian website.
                     </p>
                   </blockquote>
                 </div>
               </div>
             </div>
+
           {/* end owner 1 */}
           {/* ownr 2 */}
             <div className="max-w-6xl mb-10 px-4 mx-auto sm:px-6 lg:px-8">
