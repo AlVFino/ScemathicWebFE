@@ -6,10 +6,6 @@ import gambar1 from "../assets/imgCourse/1.png";
 import { HomeIcon, BookOpenIcon,CalendarIcon, UserIcon, ArrowLeftOnRectangleIcon  } from "@heroicons/react/20/solid";
 
 
-
-// import gambar2 from "../assets/imgCourse/4.png";
-// import gambar3 from "../assets/imgCourse/3.png";
-
 const DashboardUser = () => {
     const [selectedCategory] = useState("all");
     

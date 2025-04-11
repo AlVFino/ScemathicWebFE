@@ -6,10 +6,6 @@ import gambar1 from "../assets/imgCourse/1.png";
 import { HomeIcon, BookOpenIcon, UsersIcon,CalendarIcon, UserIcon, ClipboardDocumentCheckIcon, ArrowLeftOnRectangleIcon  } from "@heroicons/react/20/solid";
 
 
-
-// import gambar2 from "../assets/imgCourse/4.png";
-// import gambar3 from "../assets/imgCourse/3.png";
-
 const DashboardAdmin = () => {
     const [selectedCategory] = useState("all");
     
@@ -22,33 +18,33 @@ const DashboardAdmin = () => {
       const filteredCourses = selectedCategory === "all" ? courses : courses.filter(course => course.category === selectedCategory);
   return (
     
-    <div id="admin" className="mt-16 px-6 py-6 flex min-h-screen bg-gray-50">
+    <div id="dashboard-admin" className="mt-16 px-4 py-6 flex flex-col lg:flex-row min-h-screen bg-gray-50 gap-4">
       {/* Sidebar */}
-      <aside id="sideBar" className="bg-white border border-gray-300 rounded-lg shadow-md lg:w-48 md:w-48 sm:w-24 h-[50vh] p-5 flex flex-col flex-shrink-0 xl:w-64">
-        <nav className="space-y-4 flex-grow">
-          <Link to="/Dashboard_Admin">
-            <p className="font-semibold text-gray-700 flex items-center gap-2 mb-2">
-              <HomeIcon className="w-5 h-5 text-gray-700" /> Dashboard
+      <aside id="sideBar" className="bg-white border border-gray-300 rounded-lg shadow-md lg:w-48 md:w-48 sm:w-24 h-[40vh] p-5 flex flex-col flex-shrink-0 xl:w-64">
+        <nav className="space-y-4">
+        <Link to="/dashboard_admin">
+            <p className=" font-semibold text-gray-700  flex items-center gap-2 mb-2">
+                <HomeIcon className="w-5 h-5 text-gray-700" /> Dashboard
             </p>
           </Link>
           <Link to="/course_admin">
-            <p className="border-t-2 border-gray-300 pt-2 text-gray-600 cursor-pointer hover:text-gray-800 flex items-center gap-2 mb-2">
-              <BookOpenIcon className="w-5 h-5 text-gray-600" /> Daftar Course
+            <p className=" border-t-2 border-gray-300 pt-2 text-gray-600 cursor-pointer hover:text-gray-800 flex items-center gap-2 mb-2">
+                <BookOpenIcon className="w-5 h-5 text-gray-600" /> Daftar Course
             </p>
           </Link>
-          <Link to="/event_admin">
-            <p className="border-t-2 border-gray-300 pt-2 text-gray-600 cursor-pointer hover:text-gray-800 flex items-center gap-2 mb-2">
-              <CalendarIcon className="w-5 h-5 text-gray-600" /> Daftar Event
+          <Link to="/event_admini">
+            <p className="text-gray-600 border-t-2 border-gray-300 pt-2 cursor-pointer hover:text-gray-800 flex items-center gap-2 mb-2">
+                <CalendarIcon className="w-5 h-5 text-gray-600" /> Daftar Event
             </p>
           </Link>
           <Link to="/profil_admin">
-            <p className="border-t-2 border-gray-300 pt-2 text-gray-600 cursor-pointer hover:text-gray-800 flex items-center gap-2">
-              <UserIcon className="w-5 h-5 text-gray-600" /> Profil Saya
+            <p className="text-gray-600 border-t-2 border-gray-300 pt-2 cursor-pointer hover:text-gray-800 flex items-center gap-2">
+                <UserIcon className="w-5 h-5 text-gray-600" /> Profil Saya
             </p>
           </Link>
         </nav>
 
-        {/* Logout di bagian bawah */}
+                {/* Logout di bagian bawah */}
         <button className="text-red-500 font-medium flex items-center gap-2 mt-auto px-3 py-2 rounded-lg hover:bg-red-100 hover:text-red-700 transition">
           <ArrowLeftOnRectangleIcon className="w-5 h-5" />
           Logout
@@ -57,9 +53,9 @@ const DashboardAdmin = () => {
 
       
       {/* Content */}
-      <main id="content" className="flex-1 bg-white border border-gray-300 rounded-lg shadow-md p-8 ml-6">
+      <main id="content" className="flex-1 bg-white border border-gray-300 rounded-lg shadow-md p-5">
         {/* Course Info */}
-        <section id="infoCourse" className="grid md:grid-cols-3 gap-6">
+        <section id="infoCourse" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             <div className="p-6 bg-gray-100 rounded-lg text-center font-medium shadow-sm flex flex-col items-center">
                 <BookOpenIcon className="w-8 h-8 text-blue-500 mb-2" />
                 Kursus Yang Dibuat
@@ -121,7 +117,7 @@ const DashboardAdmin = () => {
             <div className="flex justify-between items-center mt-10">
                 <h1 className="font-bold text-xl ">Event Saya</h1>
             </div>
-                <div className="grid max-w-md grid-cols-1 gap-6 mx-auto mt-6 lg:mt-8 lg:grid-cols-3 lg:max-w-full">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-3">
                     <Link to={"/MenuEvent"}>
                     <div className="overflow-hidden bg-white rounded shadow hover:shadow-xl">
                             <div className="p-5">

@@ -20,30 +20,31 @@ const Pagecourse = () => {
   return (
     <div className="mt-16 px-4 sm:px-6 py-6 flex flex-col lg:flex-row min-h-screen bg-gray-50 gap-4">
       {/* Sidebar */}
-      <aside className="bg-white border border-gray-300 rounded-lg shadow-md w-full sm:w-60 lg:w-48 xl:w-64 p-5 flex flex-col flex-shrink-0">
+      <aside id="sideBar" className="bg-white border border-gray-300 rounded-lg shadow-md lg:w-48 md:w-48 sm:w-24 h-[40vh] p-5 flex flex-col flex-shrink-0 xl:w-64">
         <nav className="space-y-4">
-          <Link to="/Dashboard_Admin">
-            <p className="text-gray-700 flex items-center gap-2 mb-2">
-              <HomeIcon className="w-5 h-5 text-gray-700" /> Dashboard
+        <Link to="/dashboard_user">
+            <p className=" text-gray-700  flex items-center gap-2 mb-2">
+                <HomeIcon className="w-5 h-5 text-gray-700" /> Dashboard
             </p>
           </Link>
-          <Link to="/course_admin">
-            <p className="border-t-2 border-gray-300 pt-2 font-semibold text-gray-600 cursor-pointer hover:text-gray-800 flex items-center gap-2 mb-2">
-              <BookOpenIcon className="w-5 h-5 text-gray-600" /> Daftar Course
+          <Link to="/course_user">
+            <p className=" font-semibold border-t-2 border-gray-300 pt-2 text-gray-600 cursor-pointer hover:text-gray-800 flex items-center gap-2 mb-2">
+                <BookOpenIcon className="w-5 h-5 text-gray-600" /> Daftar Course
             </p>
           </Link>
-          <Link to="/event_admin">
-            <p className="border-t-2 border-gray-300 pt-2 text-gray-600 cursor-pointer hover:text-gray-800 flex items-center gap-2 mb-2">
-              <CalendarIcon className="w-5 h-5 text-gray-600" /> Daftar Event
+          <Link to="/event_user">
+            <p className="text-gray-600 border-t-2 border-gray-300 pt-2 cursor-pointer hover:text-gray-800 flex items-center gap-2 mb-2">
+                <CalendarIcon className="w-5 h-5 text-gray-600" /> Daftar Event
             </p>
           </Link>
-          <Link to="/profil_admin">
-            <p className="border-t-2 border-gray-300 pt-2 text-gray-600 cursor-pointer hover:text-gray-800 flex items-center gap-2">
-              <UserIcon className="w-5 h-5 text-gray-600" /> Profil Saya
+          <Link to="/profil_user">
+            <p className="text-gray-600 border-t-2 border-gray-300 pt-2 cursor-pointer hover:text-gray-800 flex items-center gap-2">
+                <UserIcon className="w-5 h-5 text-gray-600" /> Profil Saya
             </p>
           </Link>
         </nav>
 
+                {/* Logout di bagian bawah */}
         <button className="text-red-500 font-medium flex items-center gap-2 mt-auto px-3 py-2 rounded-lg hover:bg-red-100 hover:text-red-700 transition">
           <ArrowLeftOnRectangleIcon className="w-5 h-5" />
           Logout
